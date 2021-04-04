@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF10C394261A704C00B1E38C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BF10C393261A704C00B1E38C /* Lottie */; };
 		BF3185B1261A698A0071B3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B0261A698A0071B3FF /* AppDelegate.swift */; };
 		BF3185B3261A698A0071B3FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B2261A698A0071B3FF /* SceneDelegate.swift */; };
 		BF3185B5261A698A0071B3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B4261A698A0071B3FF /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF10C394261A704C00B1E38C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +149,9 @@
 			dependencies = (
 			);
 			name = "Istanbul information and travel guide";
+			packageProductDependencies = (
+				BF10C393261A704C00B1E38C /* Lottie */,
+			);
 			productName = "Istanbul information and travel guide";
 			productReference = BF3185AD261A698A0071B3FF /* Istanbul information and travel guide.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +223,9 @@
 				Base,
 			);
 			mainGroup = BF3185A4261A698A0071B3FF;
+			packageReferences = (
+				BF10C392261A704C00B1E38C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = BF3185AE261A698A0071B3FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -597,6 +605,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF10C392261A704C00B1E38C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF10C393261A704C00B1E38C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF10C392261A704C00B1E38C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		BF3185B9261A698A0071B3FF /* Istanbul_information_and_travel_guide.xcdatamodeld */ = {
