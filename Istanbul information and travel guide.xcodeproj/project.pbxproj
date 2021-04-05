@@ -17,6 +17,26 @@
 		BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3185BE261A698C0071B3FF /* LaunchScreen.storyboard */; };
 		BF3185CB261A698D0071B3FF /* Istanbul_information_and_travel_guideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185CA261A698D0071B3FF /* Istanbul_information_and_travel_guideTests.swift */; };
 		BF3185D6261A698D0071B3FF /* Istanbul_information_and_travel_guideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185D5261A698D0071B3FF /* Istanbul_information_and_travel_guideUITests.swift */; };
+		BF6C4F78261B430C00A821D3 /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = BF6C4F77261B430C00A821D3 /* map.json */; };
+		BF6C4FAB261B5BE900A821D3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FAA261B5BE900A821D3 /* RxSwift */; };
+		BF6C4FAD261B5BE900A821D3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FAC261B5BE900A821D3 /* RxRelay */; };
+		BF6C4FAF261B5BE900A821D3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FAE261B5BE900A821D3 /* RxCocoa */; };
+		BF6C4FB1261B5BE900A821D3 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FB0261B5BE900A821D3 /* RxBlocking */; };
+		BF6C4FB7261B5CE700A821D3 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FB6261B5CE700A821D3 /* Moya */; };
+		BF6C4FB9261B5CE700A821D3 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FB8261B5CE700A821D3 /* RxMoya */; };
+		BF6C4FBB261B5CE700A821D3 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FBA261B5CE700A821D3 /* ReactiveMoya */; };
+		BF6C4FC0261B5F4900A821D3 /* ReactiveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FBF261B5F4900A821D3 /* ReactiveCoordinator.swift */; };
+		BF6C4FC6261B609700A821D3 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FC5261B609700A821D3 /* BaseVC.swift */; };
+		BF6C4FCB261B60BB00A821D3 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FCA261B60BB00A821D3 /* BaseVM.swift */; };
+		BF6C4FD4261B619300A821D3 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FD3261B619300A821D3 /* UIViewController + Extension.swift */; };
+		BF6C4FDC261B62F800A821D3 /* SplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FDB261B62F800A821D3 /* SplashVM.swift */; };
+		BF6C4FE1261B635200A821D3 /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FE0261B635200A821D3 /* SplashCoordinator.swift */; };
+		BF6C4FE6261B672900A821D3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FE5261B672900A821D3 /* AppCoordinator.swift */; };
+		BF6C4FEC261B683500A821D3 /* Atlantis in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FEB261B683500A821D3 /* Atlantis */; };
+		BF6C4FF6261B6DE700A821D3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FF4261B6DE700A821D3 /* MainVC.swift */; };
+		BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6C4FF5261B6DE700A821D3 /* MainVC.xib */; };
+		BF6C4FFC261B6EA400A821D3 /* MainVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C4FFB261B6EA400A821D3 /* MainVM.swift */; };
+		BF6C5001261B6ED000A821D3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5000261B6ED000A821D3 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +72,18 @@
 		BF3185D1261A698D0071B3FF /* Istanbul information and travel guideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Istanbul information and travel guideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3185D5261A698D0071B3FF /* Istanbul_information_and_travel_guideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Istanbul_information_and_travel_guideUITests.swift; sourceTree = "<group>"; };
 		BF3185D7261A698D0071B3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6C4F77261B430C00A821D3 /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = map.json; path = ../../../../../../../Downloads/map.json; sourceTree = "<group>"; };
+		BF6C4FBF261B5F4900A821D3 /* ReactiveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCoordinator.swift; sourceTree = "<group>"; };
+		BF6C4FC5261B609700A821D3 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		BF6C4FCA261B60BB00A821D3 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		BF6C4FD3261B619300A821D3 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		BF6C4FDB261B62F800A821D3 /* SplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVM.swift; sourceTree = "<group>"; };
+		BF6C4FE0261B635200A821D3 /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
+		BF6C4FE5261B672900A821D3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BF6C4FF4261B6DE700A821D3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		BF6C4FF5261B6DE700A821D3 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		BF6C4FFB261B6EA400A821D3 /* MainVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVM.swift; sourceTree = "<group>"; };
+		BF6C5000261B6ED000A821D3 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +91,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6C4FAD261B5BE900A821D3 /* RxRelay in Frameworks */,
+				BF6C4FAB261B5BE900A821D3 /* RxSwift in Frameworks */,
+				BF6C4FB7261B5CE700A821D3 /* Moya in Frameworks */,
+				BF6C4FAF261B5BE900A821D3 /* RxCocoa in Frameworks */,
+				BF6C4FB9261B5CE700A821D3 /* RxMoya in Frameworks */,
+				BF6C4FBB261B5CE700A821D3 /* ReactiveMoya in Frameworks */,
 				BF10C394261A704C00B1E38C /* Lottie in Frameworks */,
+				BF6C4FEC261B683500A821D3 /* Atlantis in Frameworks */,
+				BF6C4FB1261B5BE900A821D3 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,12 +143,11 @@
 		BF3185AF261A698A0071B3FF /* Istanbul information and travel guide */ = {
 			isa = PBXGroup;
 			children = (
-				BF3185B0261A698A0071B3FF /* AppDelegate.swift */,
-				BF3185B2261A698A0071B3FF /* SceneDelegate.swift */,
-				BF3185B4261A698A0071B3FF /* ViewController.swift */,
-				BF3185B6261A698A0071B3FF /* Main.storyboard */,
-				BF3185BC261A698C0071B3FF /* Assets.xcassets */,
-				BF3185BE261A698C0071B3FF /* LaunchScreen.storyboard */,
+				BF6C4FD2261B615C00A821D3 /* Utils */,
+				BF6C4FC4261B605800A821D3 /* Base */,
+				BF6C4F7F261B579400A821D3 /* App */,
+				BF6C4F75261B428400A821D3 /* Assets */,
+				BF6C4F74261B427300A821D3 /* Modules */,
 				BF3185C1261A698C0071B3FF /* Info.plist */,
 				BF3185B9261A698A0071B3FF /* Istanbul_information_and_travel_guide.xcdatamodeld */,
 			);
@@ -133,6 +172,123 @@
 			path = "Istanbul information and travel guideUITests";
 			sourceTree = "<group>";
 		};
+		BF6C4F74261B427300A821D3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4FF0261B6DAF00A821D3 /* Main */,
+				BF6C4F76261B429E00A821D3 /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BF6C4F75261B428400A821D3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4F77261B430C00A821D3 /* map.json */,
+				BF3185BC261A698C0071B3FF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BF6C4F76261B429E00A821D3 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4F7E261B56FD00A821D3 /* Coordinator */,
+				BF6C4F7D261B56F500A821D3 /* ViewModel */,
+				BF6C4F7C261B56E800A821D3 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		BF6C4F7C261B56E800A821D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF3185B4261A698A0071B3FF /* ViewController.swift */,
+				BF3185B6261A698A0071B3FF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF6C4F7D261B56F500A821D3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4FDB261B62F800A821D3 /* SplashVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BF6C4F7E261B56FD00A821D3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4FE0261B635200A821D3 /* SplashCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BF6C4F7F261B579400A821D3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BF3185B0261A698A0071B3FF /* AppDelegate.swift */,
+				BF3185B2261A698A0071B3FF /* SceneDelegate.swift */,
+				BF6C4FBF261B5F4900A821D3 /* ReactiveCoordinator.swift */,
+				BF3185BE261A698C0071B3FF /* LaunchScreen.storyboard */,
+				BF6C4FE5261B672900A821D3 /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BF6C4FC4261B605800A821D3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4FC5261B609700A821D3 /* BaseVC.swift */,
+				BF6C4FCA261B60BB00A821D3 /* BaseVM.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BF6C4FD2261B615C00A821D3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4FD3261B619300A821D3 /* UIViewController + Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BF6C4FF0261B6DAF00A821D3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4FF3261B6DC800A821D3 /* ViewModel */,
+				BF6C4FF2261B6DBA00A821D3 /* Coordinator */,
+				BF6C4FF1261B6DB500A821D3 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BF6C4FF1261B6DB500A821D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4FF4261B6DE700A821D3 /* MainVC.swift */,
+				BF6C4FF5261B6DE700A821D3 /* MainVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF6C4FF2261B6DBA00A821D3 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C5000261B6ED000A821D3 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BF6C4FF3261B6DC800A821D3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C4FFB261B6EA400A821D3 /* MainVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +307,14 @@
 			name = "Istanbul information and travel guide";
 			packageProductDependencies = (
 				BF10C393261A704C00B1E38C /* Lottie */,
+				BF6C4FAA261B5BE900A821D3 /* RxSwift */,
+				BF6C4FAC261B5BE900A821D3 /* RxRelay */,
+				BF6C4FAE261B5BE900A821D3 /* RxCocoa */,
+				BF6C4FB0261B5BE900A821D3 /* RxBlocking */,
+				BF6C4FB6261B5CE700A821D3 /* Moya */,
+				BF6C4FB8261B5CE700A821D3 /* RxMoya */,
+				BF6C4FBA261B5CE700A821D3 /* ReactiveMoya */,
+				BF6C4FEB261B683500A821D3 /* Atlantis */,
 			);
 			productName = "Istanbul information and travel guide";
 			productReference = BF3185AD261A698A0071B3FF /* Istanbul information and travel guide.app */;
@@ -225,6 +389,9 @@
 			mainGroup = BF3185A4261A698A0071B3FF;
 			packageReferences = (
 				BF10C392261A704C00B1E38C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				BF6C4FA9261B5BE900A821D3 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				BF6C4FB5261B5CE700A821D3 /* XCRemoteSwiftPackageReference "Moya" */,
+				BF6C4FEA261B683500A821D3 /* XCRemoteSwiftPackageReference "atlantis" */,
 			);
 			productRefGroup = BF3185AE261A698A0071B3FF /* Products */;
 			projectDirPath = "";
@@ -242,8 +409,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */,
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
 				BF3185BD261A698C0071B3FF /* Assets.xcassets in Resources */,
+				BF6C4F78261B430C00A821D3 /* map.json in Resources */,
 				BF3185B8261A698A0071B3FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +438,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6C4FE6261B672900A821D3 /* AppCoordinator.swift in Sources */,
+				BF6C5001261B6ED000A821D3 /* MainCoordinator.swift in Sources */,
+				BF6C4FF6261B6DE700A821D3 /* MainVC.swift in Sources */,
 				BF3185B5261A698A0071B3FF /* ViewController.swift in Sources */,
+				BF6C4FC6261B609700A821D3 /* BaseVC.swift in Sources */,
+				BF6C4FD4261B619300A821D3 /* UIViewController + Extension.swift in Sources */,
+				BF6C4FC0261B5F4900A821D3 /* ReactiveCoordinator.swift in Sources */,
 				BF3185BB261A698A0071B3FF /* Istanbul_information_and_travel_guide.xcdatamodeld in Sources */,
 				BF3185B1261A698A0071B3FF /* AppDelegate.swift in Sources */,
 				BF3185B3261A698A0071B3FF /* SceneDelegate.swift in Sources */,
+				BF6C4FCB261B60BB00A821D3 /* BaseVM.swift in Sources */,
+				BF6C4FDC261B62F800A821D3 /* SplashVM.swift in Sources */,
+				BF6C4FFC261B6EA400A821D3 /* MainVM.swift in Sources */,
+				BF6C4FE1261B635200A821D3 /* SplashCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +794,30 @@
 				minimumVersion = 3.2.1;
 			};
 		};
+		BF6C4FA9261B5BE900A821D3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		BF6C4FB5261B5CE700A821D3 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+		BF6C4FEA261B683500A821D3 /* XCRemoteSwiftPackageReference "atlantis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ProxymanApp/atlantis";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -622,6 +825,46 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BF10C392261A704C00B1E38C /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		BF6C4FAA261B5BE900A821D3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6C4FA9261B5BE900A821D3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		BF6C4FAC261B5BE900A821D3 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6C4FA9261B5BE900A821D3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		BF6C4FAE261B5BE900A821D3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6C4FA9261B5BE900A821D3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		BF6C4FB0261B5BE900A821D3 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6C4FA9261B5BE900A821D3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		BF6C4FB6261B5CE700A821D3 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6C4FB5261B5CE700A821D3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		BF6C4FB8261B5CE700A821D3 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6C4FB5261B5CE700A821D3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		BF6C4FBA261B5CE700A821D3 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6C4FB5261B5CE700A821D3 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		BF6C4FEB261B683500A821D3 /* Atlantis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6C4FEA261B683500A821D3 /* XCRemoteSwiftPackageReference "atlantis" */;
+			productName = Atlantis;
 		};
 /* End XCSwiftPackageProductDependency section */
 
