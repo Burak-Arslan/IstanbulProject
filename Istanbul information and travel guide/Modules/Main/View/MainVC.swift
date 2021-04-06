@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainVC: BaseVC<MainVM> {
+class MainVC: BaseTabBar<MainVM>  {
 
     override func viewDidLoad() {
         super.viewDidLoad()
