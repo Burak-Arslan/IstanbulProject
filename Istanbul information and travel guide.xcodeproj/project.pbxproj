@@ -44,6 +44,7 @@
 		BF6C5023261BB36800A821D3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5021261BB36800A821D3 /* HomeVC.swift */; };
 		BF6C5024261BB36800A821D3 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6C5022261BB36800A821D3 /* HomeVC.xib */; };
 		BF6C5029261BB38700A821D3 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5028261BB38700A821D3 /* HomeVM.swift */; };
+		BF6CD70C261F12DB0045C0E6 /* istanbul.json in Resources */ = {isa = PBXBuildFile; fileRef = BF6CD70B261F12DB0045C0E6 /* istanbul.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		BF6C5021261BB36800A821D3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		BF6C5022261BB36800A821D3 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		BF6C5028261BB38700A821D3 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		BF6CD70B261F12DB0045C0E6 /* istanbul.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = istanbul.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		BF3185AF261A698A0071B3FF /* Istanbul information and travel guide */ = {
 			isa = PBXGroup;
 			children = (
+				BF6CD70A261F12C90045C0E6 /* Json */,
 				BF6C4FD2261B615C00A821D3 /* Utils */,
 				BF6C4FC4261B605800A821D3 /* Base */,
 				BF6C4F7F261B579400A821D3 /* App */,
@@ -350,6 +353,14 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		BF6CD70A261F12C90045C0E6 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				BF6CD70B261F12DB0045C0E6 /* istanbul.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -473,6 +484,7 @@
 				BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */,
 				BF6C5024261BB36800A821D3 /* HomeVC.xib in Resources */,
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
+				BF6CD70C261F12DB0045C0E6 /* istanbul.json in Resources */,
 				BF3185BD261A698C0071B3FF /* Assets.xcassets in Resources */,
 				BF6C4F78261B430C00A821D3 /* map.json in Resources */,
 				BF3185B8261A698A0071B3FF /* Main.storyboard in Resources */,
