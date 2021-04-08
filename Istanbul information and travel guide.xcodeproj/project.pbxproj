@@ -41,11 +41,11 @@
 		BF6C500F261BB14800A821D3 /* BaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C500E261BB14800A821D3 /* BaseTabBar.swift */; };
 		BF6C5014261BB1BE00A821D3 /* RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5013261BB1BE00A821D3 /* RawRepresentable.swift */; };
 		BF6C501D261BB32600A821D3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C501C261BB32600A821D3 /* HomeCoordinator.swift */; };
-		BF6C5023261BB36800A821D3 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5021261BB36800A821D3 /* HomeVC.swift */; };
-		BF6C5024261BB36800A821D3 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6C5022261BB36800A821D3 /* HomeVC.xib */; };
 		BF6C5029261BB38700A821D3 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5028261BB38700A821D3 /* HomeVM.swift */; };
 		BF6CD70C261F12DB0045C0E6 /* istanbul.json in Resources */ = {isa = PBXBuildFile; fileRef = BF6CD70B261F12DB0045C0E6 /* istanbul.json */; };
 		BF6CD712261F191B0045C0E6 /* IstanbulResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CD711261F191B0045C0E6 /* IstanbulResponse.swift */; };
+		BF6CD724261F34670045C0E6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CD722261F34670045C0E6 /* HomeVC.swift */; };
+		BF6CD725261F34670045C0E6 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6CD723261F34670045C0E6 /* HomeVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,11 +97,11 @@
 		BF6C500E261BB14800A821D3 /* BaseTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBar.swift; sourceTree = "<group>"; };
 		BF6C5013261BB1BE00A821D3 /* RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawRepresentable.swift; sourceTree = "<group>"; };
 		BF6C501C261BB32600A821D3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
-		BF6C5021261BB36800A821D3 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		BF6C5022261BB36800A821D3 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		BF6C5028261BB38700A821D3 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		BF6CD70B261F12DB0045C0E6 /* istanbul.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = istanbul.json; sourceTree = "<group>"; };
 		BF6CD711261F191B0045C0E6 /* IstanbulResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IstanbulResponse.swift; sourceTree = "<group>"; };
+		BF6CD722261F34670045C0E6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BF6CD723261F34670045C0E6 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,8 +334,8 @@
 		BF6C5019261BB2DB00A821D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C5021261BB36800A821D3 /* HomeVC.swift */,
-				BF6C5022261BB36800A821D3 /* HomeVC.xib */,
+				BF6CD722261F34670045C0E6 /* HomeVC.swift */,
+				BF6CD723261F34670045C0E6 /* HomeVC.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -493,12 +493,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */,
-				BF6C5024261BB36800A821D3 /* HomeVC.xib in Resources */,
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
 				BF6CD70C261F12DB0045C0E6 /* istanbul.json in Resources */,
 				BF3185BD261A698C0071B3FF /* Assets.xcassets in Resources */,
 				BF6C4F78261B430C00A821D3 /* map.json in Resources */,
 				BF3185B8261A698A0071B3FF /* Main.storyboard in Resources */,
+				BF6CD725261F34670045C0E6 /* HomeVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,11 +538,11 @@
 				BF6C501D261BB32600A821D3 /* HomeCoordinator.swift in Sources */,
 				BF6CD712261F191B0045C0E6 /* IstanbulResponse.swift in Sources */,
 				BF3185B1261A698A0071B3FF /* AppDelegate.swift in Sources */,
+				BF6CD724261F34670045C0E6 /* HomeVC.swift in Sources */,
 				BF3185B3261A698A0071B3FF /* SceneDelegate.swift in Sources */,
 				BF6C4FCB261B60BB00A821D3 /* BaseVM.swift in Sources */,
 				BF6C4FDC261B62F800A821D3 /* SplashVM.swift in Sources */,
 				BF6C4FFC261B6EA400A821D3 /* MainVM.swift in Sources */,
-				BF6C5023261BB36800A821D3 /* HomeVC.swift in Sources */,
 				BF6C4FE1261B635200A821D3 /* SplashCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

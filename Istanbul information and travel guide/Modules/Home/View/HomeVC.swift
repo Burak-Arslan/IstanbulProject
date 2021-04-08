@@ -1,14 +1,17 @@
+//
+//  HomeVC.swift
+//  Istanbul information and travel guide
+//
+//  Created by Burak Arslan on 8.04.2021.
+//
 
 import UIKit
 
-class HomeVC: BaseVC<HomeVM> {
+class HomeVC: BaseVC<HomeVM>{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        initialize()
-    }
-    func initialize() {
-        let data = self.viewModel?.getIstanbulInfo()
+        let data = self.viewModel!.getIstanbulInfo()
         var test = ""
     }
 }
