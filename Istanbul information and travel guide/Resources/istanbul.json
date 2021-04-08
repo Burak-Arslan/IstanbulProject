@@ -17,7 +17,7 @@
       "adres": "Rumeli Hisarı, Yahya Kemal Cd. 3447 Sarıyer/İstanbul",
       "telefon": "(0212) 265 04 10",
       "ziyaret_saatleri": "Çarşamba günü hariç her gün 09.00 – 19.00",
-      "Giris_ucreti": "Normal 10₺, Öğrenci, 18 yaş altı ve 65 yaş üstü vatandaşlarından giriş ücreti talep edilmiyor. Müzekart geçerli.",
+      "giris_ucreti": "Normal 10₺, Öğrenci, 18 yaş altı ve 65 yaş üstü vatandaşlarından giriş ücreti talep edilmiyor. Müzekart geçerli.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/rumeli-hisari-1068x558.jpg",
       "enlem":"41.084722",
       "boylam":"29.056111"
@@ -28,7 +28,7 @@
       "adres": "Yedikule Mahallesi, Yedikule Meydanı Sk. No:9, 34107 Fatih/İstanbul",
       "telefon": "(0212) 585 89 33",
       "ziyaret_saatleri": "Pazar günü hariç her gün 08.30 – 18.00",
-      "Giris_ucreti": "10₺, Müzekart geçerli",
+      "giris_ucreti": "10₺, Müzekart geçerli",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/yedikule-zindanlari-1068x558.jpg",
       "enlem":"40.993056",
       "boylam":"28.923333"
@@ -39,7 +39,7 @@
       "adres": "Anadolu Kavağı Mahallesi, Tuna Cd. No:5, 34825 Beykoz/İstanbul",
       "telefon": "(0216) 320 20 56",
       "ziyaret_saatleri": "Her gün 09.30 – 22.00 saatleri arasında açık",
-      "Giris_ucreti": "Giriş ücretsiz, ancak kale kompleksindeki Yoros Cafe ve Restaurant’ta kahvaltı menüsü yaklaşık 25-35 TL arasında; yemek menüsü de 35-40 TL.",
+      "giris_ucreti": "Giriş ücretsiz, ancak kale kompleksindeki Yoros Cafe ve Restaurant’ta kahvaltı menüsü yaklaşık 25-35 TL arasında; yemek menüsü de 35-40 TL.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/yoros-kalesi-1068x558.jpg",
       "enlem":"",
       "boylam":""
@@ -50,7 +50,7 @@
       "adres": "Garipçe Mahallesi, Fehim Sk. No:85, 34450 Sarıyer/İstanbul",
       "telefon": "",
       "ziyaret_saatleri": "24 saat",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/garipce-768x512.jpg",
       "enlem":"",
       "boylam":""
@@ -61,7 +61,7 @@
       "adres": "Riva Mahallesi, No:, Şht. Mehmet Ali Şener Cd. No:7, 34829 Beykoz/İstanbul",
       "telefon": "",
       "ziyaret_saatleri": "24 saat",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/riva-kalesi-1068x558.jpg",
       "enlem":"41.224",
       "boylam":"29.2173"
@@ -72,7 +72,7 @@
       "adres": "Ocaklı Ada, Şile Merkez, Şile, İstanbul",
       "telefon": "",
       "ziyaret_saatleri": "24 saat",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/ocakli-ada-kalesi.jpg",
       "enlem":"41.224",
       "boylam":"29.2173"
@@ -83,7 +83,7 @@
       "adres": "Bereketzade Mahallesi, Galata Kulesi Sk., 34421 Beyoğlu/İstanbul",
       "telefon": "(0212) 293 57 07",
       "ziyaret_saatleri": "Her gün 09.00 – 22.30",
-      "Giris_ucreti": "Yabancı Turistler: 25₺, Sivil Vatandaşlar: 15₺, Öğrenci: 7.5₺ - Müzekart geçerli değil.",
+      "giris_ucreti": "Yabancı Turistler: 25₺, Sivil Vatandaşlar: 15₺, Öğrenci: 7.5₺ - Müzekart geçerli değil.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/galata-kulesi-1068x558.jpg",
       "enlem":"41.025561",
       "boylam":"28.974169"
@@ -94,7 +94,7 @@
       "adres": "Salacak Mahallesi, Üsküdar Salacak Mevkii, 34668 Üsküdar/İstanbul",
       "telefon": "(0216) 342 47 47",
       "ziyaret_saatleri": " Her gün 09.15-19.00",
-      "Giris_ucreti": "25₺ (Serpme kahvaltı 55₺, Akşam yemeği 250₺), Öğrenci 15₺. Müzekart ile giriş için %25, restoran için ise %20 indirim olanağı sunulmaktadır.",
+      "giris_ucreti": "25₺ (Serpme kahvaltı 55₺, Akşam yemeği 250₺), Öğrenci 15₺. Müzekart ile giriş için %25, restoran için ise %20 indirim olanağı sunulmaktadır.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/kiz-kulesi-1536x867.jpg",
       "enlem":"41.021111",
       "boylam":"29.004167"
@@ -107,7 +107,7 @@
       "adres": "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul",
       "telefon": " 0 (212) 522 17 50",
       "ziyaret_saatleri": "Pazartesi dışında her gün 09.00-17.00",
-      "Giris_ucreti": "100₺. 18 yaş altı ve 65 yaş üstü ziyaretçilere ücretsiz. Müzekart geçerli.",
+      "giris_ucreti": "100₺. 18 yaş altı ve 65 yaş üstü ziyaretçilere ücretsiz. Müzekart geçerli.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/ayasofya-camii-1068x558.jpg",
       "enlem":"41.008528",
       "boylam":"28.979917"
@@ -118,7 +118,7 @@
       "adres": "Sultan Ahmet, Atmeydanı Cd. No:7, 34122 Fatih/İstanbul",
       "telefon": " 0 (212) 522 17 50",
       "ziyaret_saatleri": "24 saat ziyaret edilebilir. Namaz saatlerine dikkat edilmesini öneriyoruz.",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/sultanahmet-camii-1068x558.jpg",
       "enlem":"41.005385",
       "boylam":"28.976825"
@@ -129,7 +129,7 @@
       "adres": "Süleymaniye Mah, Prof. Sıddık Sami Onar Cd. No:1, 34116 Fatih/İstanbul",
       "telefon": " 0 (212) 222 28 82",
       "ziyaret_saatleri": "Her gün 09.00-18.00",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/suleymaniye-camii-1068x558.jpg",
       "enlem":"41.016111",
       "boylam":"28.963889"
@@ -140,7 +140,7 @@
       "adres": " Mecidiye, Mecidiye Köprüsü Sk. No:1 D:1, 34347 Beşiktaş/İstanbul",
       "telefon": "",
       "ziyaret_saatleri": "Her gün 09.00-18.00",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/buyuk-mecidiye-camii-1068x558.jpg",
       "enlem":"41.047351",
       "boylam":"29.026894"
@@ -151,7 +151,7 @@
       "adres": "Merkez Mh, Cami Kebir Sk. No:1, 34050 Eyüpsultan/İstanbul",
       "telefon": "(0212) 544 44 16",
       "ziyaret_saatleri": "Her gün 09.00-18.00",
-      "Giris_ucreti": "Cami sürekli ziyaret açık. Türbe ise restorasyon çalışmalarının ardından her gün 09.30-16.00 saatleri arasında ziyaret edilebilir",
+      "giris_ucreti": "Cami sürekli ziyaret açık. Türbe ise restorasyon çalışmalarının ardından her gün 09.30-16.00 saatleri arasında ziyaret edilebilir",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/eyup-sultan-camii-1068x558.jpg",
       "enlem":"41.047947",
       "boylam":"28.933786"
@@ -162,7 +162,7 @@
       "adres": "Ali Kuşçu, Darüşşafaka Cd. 2-1, 34083 Fatih/İstanbul",
       "telefon": "Fatih Müftülüğü - 0212 524 64 10",
       "ziyaret_saatleri": "Her gün 09.00-18.00",
-      "Giris_ucreti": "Her gün 09.00-16.00 arası namaz saatleri dışında ziyaret edilebilir.",
+      "giris_ucreti": "Her gün 09.00-16.00 arası namaz saatleri dışında ziyaret edilebilir.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/fatih-camii-1068x558.jpg",
       "enlem":"41.019719",
       "boylam":"28.949719"
@@ -175,7 +175,7 @@
       "adres": "Aziz Mahmut Hüdayi Mah., Aziz Mahmud Efendi Sok., Cami İçi No:1, 34672 Üsküdar/İstanbul",
       "telefon": "0216 428 39 60",
       "ziyaret_saatleri": "Her gün 09.00-20.00",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/aziz-mahmud-hudayi-turbesi-1536x966.jpg",
       "enlem":"41.019719",
       "boylam":"28.949719"
@@ -188,7 +188,7 @@
       "adres": "Katip Çelebi Mah., 34433 Beyoğlu/İstanbul",
       "telefon": "0212 244 13 58",
       "ziyaret_saatleri": "09.00-17.00 saatleri arasında ziyaret edilebilir",
-      "Giris_ucreti": "",
+      "giris_ucreti": "",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/aya-triada-1068x558.jpg",
       "enlem":"41.0355",
       "boylam":"28.984194"
@@ -199,7 +199,7 @@
       "adres": "Tomtom, İstiklal Cd. No:171, 34433 Beyoğlu/İstanbul",
       "telefon": "0-212-2440935",
       "ziyaret_saatleri": "09.00-17.00. Pazartesi-Cumartesi 08.00 ve Pazar günleri 10.00’da ayin gerçekleştirilmektedir.",
-      "Giris_ucreti": "",
+      "giris_ucreti": "",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/sent-antuan-kilisesi-1068x558.jpg",
       "enlem":"41.032317",
       "boylam":"28.977234"
@@ -210,7 +210,7 @@
       "adres": "Balat, Mürselpaşa Cd. No:10, 34087 Fatih/İstanbul",
       "telefon": "(0212) 248 09 21",
       "ziyaret_saatleri": "Her gün 09.00-17.00",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/demir-kilise-1068x558.jpg",
       "enlem":"41.031944",
       "boylam":"28.949722"
@@ -221,7 +221,7 @@
       "adres": "Yavuz Sultan Selim, Dr. Sadık Ahmet Cd. No:44, 34083 Fatih/İstanbul",
       "telefon": "(0212) 531 96 70",
       "ziyaret_saatleri": "Her gün 08.00-17.00",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/aya-yorgi-rum-patrikhane-1536x864.jpg",
       "enlem":"41.029092",
       "boylam":"28.951822"
@@ -232,7 +232,7 @@
       "adres": "Sultanahmet Meydanı Topkapı Sarayı 1. Avlusu, Sultanahmet, Fatih",
       "telefon": "0 (212) 528 45 00",
       "ziyaret_saatleri": "Salı günü dışında her gün 09.00-16.00",
-      "Giris_ucreti": "Normal 60₺, indirimli 30₺. Müzekart geçerli",
+      "giris_ucreti": "Normal 60₺, indirimli 30₺. Müzekart geçerli",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/aya-irini-kilisesi-1068x558.jpg",
       "enlem":"41.009694",
       "boylam":"28.981111"
@@ -243,7 +243,7 @@
       "adres": "Büyükada-nizam, Gülistan Cd. No:2, 34970 Adalar/İstanbul",
       "telefon": " (0216) 382 70 69",
       "ziyaret_saatleri": "Her gün 08.30-16.00",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/aya-yorgi-kilisesi-1068x558.jpg",
       "enlem":"40.848611",
       "boylam":"29.118889"
@@ -256,7 +256,7 @@
       "adres": "Vişnezade Mahallesi, Dolmabahçe Cd., 34357 Beşiktaş/İstanbul",
       "telefon": "(0212) 236 90 00",
       "ziyaret_saatleri": "Pazartesi hariç her gün 09.00 – 16.00",
-      "Giris_ucreti": "- Normal Selamlık (Tam) 60 TL, Harem (Tam) 30 TL, Selamlık + Harem (Tam) 90 TL - Öğrenci Selamlık (İndirimli) 30 TL, Harem (İndirimli)  20 TL, Selamlık + Harem (İndirimli) 45 TL",
+      "giris_ucreti": "- Normal Selamlık (Tam) 60 TL, Harem (Tam) 30 TL, Selamlık + Harem (Tam) 90 TL - Öğrenci Selamlık (İndirimli) 30 TL, Harem (İndirimli)  20 TL, Selamlık + Harem (İndirimli) 45 TL",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/dolmabahce-sarayi-1068x558.jpg",
       "enlem":"41.039444",
       "boylam":" 29.001667"
@@ -267,7 +267,7 @@
       "adres": " Beylerbeyi, Abdullahağa Cd., 34676 Üsküdar/İstanbul",
       "telefon": "0216 321 93 20",
       "ziyaret_saatleri": "PPazartesi hariç diğer günler 09.00-16.30",
-      "Giris_ucreti": "Normal 40₺, İndirimli 20₺. Müzekart geçerli değil.",
+      "giris_ucreti": "Normal 40₺, İndirimli 20₺. Müzekart geçerli değil.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/beylerbeyi-sarayi-1536x924.jpg",
       "enlem":"41.042778",
       "boylam":"29.04"
@@ -278,7 +278,7 @@
       "adres": "Yıldız, Çırağan Cd. No:32, 34349 Beşiktaş/İstanbul",
       "telefon": "(0212) 326 46 46",
       "ziyaret_saatleri": "Sarayda alacağınız kahvaltı, yemek ya da organizasyon hizmetine göre ücretlendirme 300₺ ile 1 milyon ₺ arasında değişebilmektedir.",
-      "Giris_ucreti": "Normal 40₺, İndirimli 20₺. Müzekart geçerli değil.",
+      "giris_ucreti": "Normal 40₺, İndirimli 20₺. Müzekart geçerli değil.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/ciragan-sarayi-1068x558.jpg",
       "enlem":"41.043444",
       "boylam":"29.015389"
@@ -289,7 +289,7 @@
       "adres": "Ayvansaray, 34087 Fatih/İstanbul",
       "telefon": "(0212) 525 61 30",
       "ziyaret_saatleri": "Her gün 09.00-18.00",
-      "Giris_ucreti": "Normal 10₺, indirimli 5₺. Müzekart geçerli değil.",
+      "giris_ucreti": "Normal 10₺, indirimli 5₺. Müzekart geçerli değil.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/tekfur-sarayi-1068x558.jpg",
       "enlem":"41.033889",
       "boylam":"28.940281"
@@ -302,7 +302,7 @@
       "adres": "Rüstem Paşa, Erzak Ambarı Sok. No:92, 34116 Fatih/İstanbul",
       "telefon": "(0212) 513 65 97",
       "ziyaret_saatleri": "Pazartesi-Cumartesi arası 08.00-19.00, Pazar günü ise 09.30-19.00",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/misir-carsisi-1068x558.jpg",
       "enlem":"41.016389",
       "boylam":"28.970556"
@@ -313,7 +313,7 @@
       "adres": "Beyazıt, Kalpakçılar Cd. No:22, 34126 Fatih/İstanbul",
       "telefon": "(0212) 519 12 48",
       "ziyaret_saatleri": "Her gün 08.30-19.00",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/kapalicarsi-1068x558.jpg",
       "enlem":"41.010556",
       "boylam":"28.968056"
@@ -326,7 +326,7 @@
       "adres": "Teşvikiye Mahallesi, Av. Süreyya Ağaoğlu Sk. No 80, 34365 Şişli/İstanbul",
       "telefon": "(0212) 259 50 86",
       "ziyaret_saatleri": "Pazartesi dışında diğer günler 09.00-17.00",
-      "Giris_ucreti": "Normal 20₺, indirimli 10₺. Sadece bahçeyi gezmek isteyenlerin ise 5₺ ücret ödemesi gerekmektedir. Kahvaltı yapmak isterseniz kahvaltı tabağı 30₺, serpme kahvaltı ise 45₺.",
+      "giris_ucreti": "Normal 20₺, indirimli 10₺. Sadece bahçeyi gezmek isteyenlerin ise 5₺ ücret ödemesi gerekmektedir. Kahvaltı yapmak isterseniz kahvaltı tabağı 30₺, serpme kahvaltı ise 45₺.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/ihlamur-kasirlari-1536x971.jpg",
       "enlem":"41.050833",
       "boylam":"29.001667"
@@ -337,7 +337,7 @@
       "adres": "Hasköy, Aynalı Kavak Cd., 34445 Beyoğlu/İstanbul",
       "telefon": "(0212) 236 90 00",
       "ziyaret_saatleri": "Pazartesi günleri dışında 09.00-16.30",
-      "Giris_ucreti": "Normal 30₺, indirimli 15₺",
+      "giris_ucreti": "Normal 30₺, indirimli 15₺",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/aynalikavak-kasri-1068x637.jpg",
       "enlem":"41.03793",
       "boylam":"28.95532"
@@ -348,7 +348,7 @@
       "adres": "Yalıköy, Beykoz Kasrı, 34820 Beykoz/İstanbul",
       "telefon": "(0212) 236 90 00",
       "ziyaret_saatleri": "Pazartesi hariç 09.00-16.30",
-      "Giris_ucreti": "Normal 30₺, indirimli 15₺",
+      "giris_ucreti": "Normal 30₺, indirimli 15₺",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/beykoz-mecidiye-kasri-1536x864.jpg",
       "enlem":"",
       "boylam":""
@@ -359,7 +359,7 @@
       "adres": "Hoca Paşa, Kennedy Cd. No:25, 34110 Fatih/İstanbul",
       "telefon": "0212 527 16 83",
       "ziyaret_saatleri": "",
-      "Giris_ucreti": "Organizasyon saatine göre değişiklik göstermektedir.",
+      "giris_ucreti": "Organizasyon saatine göre değişiklik göstermektedir.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/sepetciler-kasir-1068x712.jpg",
       "enlem":"41.01625",
       "boylam":"28.981806"
@@ -370,7 +370,7 @@
       "adres": "Göksu, Küçüksu Cd. No:12, 34815 Beykoz/İstanbul",
       "telefon": "(0216) 332 33 03",
       "ziyaret_saatleri": "Pazartesi dışında 09.00-16.30",
-      "Giris_ucreti": "Normal 30₺, İndirimli 15₺, Öğrenci 5₺ ve mesire alanı girişi 5₺",
+      "giris_ucreti": "Normal 30₺, İndirimli 15₺, Öğrenci 5₺ ve mesire alanı girişi 5₺",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/kucuksu-kasri-1536x1010.jpg",
       "enlem":"41.07845",
       "boylam":"29.06485"
@@ -383,7 +383,7 @@
       "adres": "Basınköy, Çekmece İstanbul Cd. No:23, 34153 Bakırköy/İstanbul",
       "telefon": "(0212) 426 51 51",
       "ziyaret_saatleri": "Her gün 09.00-17.00",
-      "Giris_ucreti": "Normal 20₺, İndirimli 10₺",
+      "giris_ucreti": "Normal 20₺, İndirimli 10₺",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/kucuksu-kasri-1536x1010.jpg",
       "enlem":"40.9726",
       "boylam":"28.782539"
@@ -394,7 +394,7 @@
       "adres": "Cankurtaran Mah, Gülhane parkı içerisinde, Taya Hatun Sk D:8A, 34122 Fatih/İstanbul",
       "telefon": " (0212) 528 80 65",
       "ziyaret_saatleri": "Her gün 09.00-17.00",
-      "Giris_ucreti": "18₺. Müzekart geçerli",
+      "giris_ucreti": "18₺. Müzekart geçerli",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/islam-bilim-ve-teknoloji-tarihi-muzesii-1536x1024.jpg",
       "enlem":"",
       "boylam":""
@@ -405,7 +405,7 @@
       "adres": " Bebek, Aşiyan Yolu, 34342 Beşiktaş/İstanbul",
       "telefon": "(0212) 263 69 86",
       "ziyaret_saatleri": "Pazartesi günleri dışında her gün 09.00-16.00 saatleri arasında ziyaret edilebilir.",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/asiyan-muzesi-1536x864.jpg",
       "enlem":"41.08265",
       "boylam":"29.05345"
@@ -416,7 +416,7 @@
       "adres": "Cankurtaran, 34122 Fatih/İstanbul",
       "telefon": " (0212) 520 77 41",
       "ziyaret_saatleri": "1 Nisan-31 Ekim arasında 10.00-17.00, 31 Ekim-1 Nisan arasında ise 09.00-18.00.",
-      "Giris_ucreti": "50₺. Müzekart geçerli.",
+      "giris_ucreti": "50₺. Müzekart geçerli.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/istanbul-arkeoloji-muzeleri-1068x558.jpg",
       "enlem":"41.011669",
       "boylam":"28.981389"
@@ -427,7 +427,7 @@
       "adres": "Binbirdirek, Atmeydanı Cd. No:12, 34122 Fatih/İstanbul",
       "telefon": " (0212) 518 18 05",
       "ziyaret_saatleri": "Pazartesi dışında her gün 1 Nisan-31 Ekim 10.00-17.00, 31 Ekim-1 Nisan 09.00-18.00",
-      "Giris_ucreti": "50₺. Müzekart geçerli.",
+      "giris_ucreti": "50₺. Müzekart geçerli.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/turk-ve-islam-eserleri-muzesi-1536x864.jpg",
       "enlem":"41.006281",
       "boylam":"28.974561"
@@ -438,7 +438,7 @@
       "adres": "Örnektepe, İmrahor Cd. No:7, 34445 Beyoğlu/İstanbul",
       "telefon": "(0212) 222 28 82",
       "ziyaret_saatleri": "Her gün 09.00-18.00",
-      "Giris_ucreti": "Normal 10₺, indirimli 5₺ ve yabancı ziyaretçiler için 20₺",
+      "giris_ucreti": "Normal 10₺, indirimli 5₺ ve yabancı ziyaretçiler için 20₺",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/miniaturk-1068x558.jpg",
       "enlem":"41.059722",
       "boylam":"28.948333"
@@ -449,7 +449,7 @@
       "adres": "Piri Paşa Mahallesi, Hasköy Cd. No:5 D:No:5, 34445 Beyoğlu/İstanbul",
       "telefon": "(0212) 369 66 00",
       "ziyaret_saatleri": "1 Ekim-31 Mart tarihleri arasında 09.30-17.00, 1 Nisan-30 Eylül tarihleri arasında ise 09.30-19.00 saatleri arasında ziyaret edilebilir. Müze pazartesi günleri kapalı.",
-      "Giris_ucreti": "Normal 21₺, Öğrenci 9₺",
+      "giris_ucreti": "Normal 21₺, Öğrenci 9₺",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/istanbul-rahmi-m-koc-muzesi-1536x864.jpg",
       "enlem":"",
       "boylam":""
@@ -462,7 +462,7 @@
       "adres": "Alemdar, Yerebatan Cd. 1/3, 34110 Fatih/İstanbul",
       "telefon": "(0212) 522 12 59",
       "ziyaret_saatleri": "Yaz döneminde 09.00-18.30, kış döneminde ise 09.00-17.30",
-      "Giris_ucreti": "Yerli 15₺, öğrenci-öğretmen 5₺ ve yabancı ziyaretçiler için 30₺. Müzekart geçerli değil",
+      "giris_ucreti": "Yerli 15₺, öğrenci-öğretmen 5₺ ve yabancı ziyaretçiler için 30₺. Müzekart geçerli değil",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/yerebatan-sarnici-1068x558.jpg",
       "enlem":"41.008404",
       "boylam":"28.977921"
@@ -473,7 +473,7 @@
       "adres": "Binbirdirek Mah. İmran Öktem Cad. 34122 Fatih / İSTANBUL",
       "telefon": "0212 518 10 01",
       "ziyaret_saatleri": "09.00-20.00",
-      "Giris_ucreti": "Yerli vatandaşlar için 10₺, yabancı ziyaretçiler için 20₺",
+      "giris_ucreti": "Yerli vatandaşlar için 10₺, yabancı ziyaretçiler için 20₺",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/binbirdirek-sarnici-1068x712.jpg",
       "enlem":"41.0075",
       "boylam":"28.974444"
@@ -484,7 +484,7 @@
       "adres": " Kalenderhane Mah., Haşim İşcan Gç., 34134 Fatih/İstanbul",
       "telefon": "0212 518 10 01",
       "ziyaret_saatleri": "24 saat",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/bozdogan-kemeri-1536x914.jpg",
       "enlem":"41.015944",
       "boylam":"28.955556"
@@ -495,7 +495,7 @@
       "adres": "Caferiye Sokak, Soğukkuyu Çk. No:5, 34122 Fatih",
       "telefon": "(0212) 513 36 01",
       "ziyaret_saatleri": "Eğitimlerin saatlerine göre değişiklik göstermektedir.",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/caferaga-medresesi-1068x601.jpg",
       "enlem":"41.00964",
       "boylam":"28.97883"
@@ -506,7 +506,7 @@
       "adres": "Mimarsinan, Mimar Sinan Kavşağı, 34535 Büyükçekmece/İstanbul",
       "telefon": "(0212) 513 36 01",
       "ziyaret_saatleri": "24 saat",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/sultan-suleyman-koprusu-1536x1024.jpg",
       "enlem":"41.02181",
       "boylam":"28.57056"
@@ -517,7 +517,7 @@
       "adres": "Şahkulu, Galip Dede Cd. No:15, 34420 Beyoğlu/İstanbul",
       "telefon": "(0212) 245 41 41",
       "ziyaret_saatleri": "1 Nisan-1 Ekim 10.00-17.00, 1 Ekim-1 Nisan 09.00-17.00, Pazartesi günleri kapalı.",
-      "Giris_ucreti": "18₺. Sema gösterileri için bilet ücreti ise 100₺. Müzekart geçerli ancak sema gösterilerine dahil değil.",
+      "giris_ucreti": "18₺. Sema gösterileri için bilet ücreti ise 100₺. Müzekart geçerli ancak sema gösterilerine dahil değil.",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/galata-mevlevihanesi-1068x558.jpg",
       "enlem":"41.028028",
       "boylam":"28.975125"
@@ -528,7 +528,7 @@
       "adres": "Balat, Sancaktar Ykş. No:36, 34087 Fatih/İstanbul",
       "telefon": "(0212) 521 22 52",
       "ziyaret_saatleri": "Hala eğitim verildiği için serbest bir şekilde ziyaret edilemiyor.",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/fener-rum-erkek-lisesi-1068x558.jpg",
       "enlem":"",
       "boylam":""
@@ -539,7 +539,7 @@
       "adres": "Rasimpaşa, 34716 Kadıköy/İstanbul",
       "telefon": "(0216) 348 80 20",
       "ziyaret_saatleri": "Şu anda kapalı olan garın ne zaman ziyarete ve hizmete açılacağı konusunda henüz bir bilgi bulunmuyor.",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/haydarpasa-gari-1068x558.jpg",
       "enlem":"40.996228",
       "boylam":"29.018636"
@@ -552,7 +552,7 @@
       "adres": "Cankurtaran, 34122 Fatih/İstanbul",
       "telefon": "",
       "ziyaret_saatleri": "",
-      "Giris_ucreti": "",
+      "giris_ucreti": "",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/sogukcesme-sokagi-1068x558.jpg",
       "enlem":"41.009028",
       "boylam":"28.980761"
@@ -563,7 +563,7 @@
       "adres": "Cankurtaran, Kennedy Cd., 34122 Fatih/İstanbul",
       "telefon": "",
       "ziyaret_saatleri": "24 saat",
-      "Giris_ucreti": "Ücretsiz",
+      "giris_ucreti": "Ücretsiz",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/gulhane-parki-1068x558.jpg",
       "enlem":"41.0127",
       "boylam":"28.9805"
@@ -574,7 +574,7 @@
       "adres": "Rüstem Paşa, mah, 34116 Fatih/İstanbul",
       "telefon": "",
       "ziyaret_saatleri": "24 saat",
-      "Giris_ucreti": "",
+      "giris_ucreti": "",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/eminonu-1068x558.jpg",
       "enlem":"41.0174",
       "boylam":"28.9714"
@@ -585,7 +585,7 @@
       "adres": "Gümüşsuyu, 34435 Beyoğlu/İstanbul",
       "telefon": "",
       "ziyaret_saatleri": "24 saat",
-      "Giris_ucreti": "",
+      "giris_ucreti": "",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/taksim-meydani-1068x558.jpg",
       "enlem":"41.036944",
       "boylam":"28.985833"
@@ -596,7 +596,7 @@
       "adres": "",
       "telefon": "",
       "ziyaret_saatleri": "",
-      "Giris_ucreti": "",
+      "giris_ucreti": "",
       "photo": "https://blog.biletbayi.com/wp-content/uploads/2020/06/balat-1068x558.jpg",
       "enlem":"41.030982",
       "boylam":"28.950043"
