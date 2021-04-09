@@ -11,6 +11,8 @@ import RxSwift
 
 class HomeVM: BaseVM {
     var hisarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
+    let goHisaDetail = PublishSubject<Camiler>()
+
     func getIstanbulInfo() -> IstanbulResponse? {
         do {
             guard let jsonData = readLocalFile(forName: "istanbul") else { return nil }

@@ -44,6 +44,7 @@ extension HomeVC {
     func bindCollectionView() {
         viewModel?.hisarInfo.bind(to: collectionHisar.rx.items(dataSource: self.cuffDataSource)).disposed(by: disposeBag)
         collectionHisar.rx.modelSelected(Camiler.self).subscribe(onNext: {(model) in
+            self.viewModel?.goHisaDetail.onNext(model)
             print(model)
          }).disposed(by: disposeBag)
     }
