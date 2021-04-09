@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="Istanbul_information_and_travel_guide" customModuleProvider="target">
             <connections>
+                <outlet property="collectionHisar" destination="pjX-aH-sDD" id="LEK-ef-paR"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -25,51 +26,111 @@
                             <rect key="frame" x="0.0" y="0.0" width="428" height="1392"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bII-oL-iTH">
-                                    <rect key="frame" x="0.0" y="0.0" width="428" height="1500"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="428" height="2500"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="83N-rB-a2u">
-                                            <rect key="frame" x="0.0" y="0.0" width="428" height="1500"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="2500"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSR-ap-8KC">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSR-ap-8KC" userLabel="Hisarlar">
                                                     <rect key="frame" x="0.0" y="0.0" width="428" height="250"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hisarlar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2Y-7h-4YE">
+                                                            <rect key="frame" x="10.000000000000004" y="10" width="58.333333333333343" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="pjX-aH-sDD">
+                                                            <rect key="frame" x="10" y="50" width="408" height="190"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zf9-qh-QWc">
+                                                                <size key="itemSize" width="128" height="128"/>
+                                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                            </collectionViewFlowLayout>
+                                                        </collectionView>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60X-ey-ccc">
+                                                            <rect key="frame" x="333" y="10" width="85" height="30"/>
+                                                            <state key="normal" title="Tümünü Gör"/>
+                                                        </button>
+                                                    </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="pjX-aH-sDD" secondAttribute="trailing" constant="10" id="0bY-Z4-Z3k"/>
+                                                        <constraint firstItem="pjX-aH-sDD" firstAttribute="leading" secondItem="RSR-ap-8KC" secondAttribute="leading" constant="10" id="E7r-TW-OgH"/>
+                                                        <constraint firstAttribute="bottom" secondItem="pjX-aH-sDD" secondAttribute="bottom" constant="10" id="FGW-tv-O36"/>
+                                                        <constraint firstItem="r2Y-7h-4YE" firstAttribute="top" secondItem="RSR-ap-8KC" secondAttribute="top" constant="10" id="NiO-fZ-bJr"/>
+                                                        <constraint firstAttribute="trailing" secondItem="60X-ey-ccc" secondAttribute="trailing" constant="10" id="Pko-Nn-fsP"/>
+                                                        <constraint firstItem="r2Y-7h-4YE" firstAttribute="leading" secondItem="RSR-ap-8KC" secondAttribute="leading" constant="10" id="UWi-Bf-HSW"/>
                                                         <constraint firstAttribute="height" constant="250" id="iZd-n8-cAp"/>
+                                                        <constraint firstItem="60X-ey-ccc" firstAttribute="top" secondItem="RSR-ap-8KC" secondAttribute="top" constant="10" id="tyv-F1-p8R"/>
+                                                        <constraint firstItem="pjX-aH-sDD" firstAttribute="top" secondItem="60X-ey-ccc" secondAttribute="bottom" constant="10" id="uYe-gM-4AI"/>
+                                                        <constraint firstItem="pjX-aH-sDD" firstAttribute="top" secondItem="r2Y-7h-4YE" secondAttribute="bottom" constant="10" id="yZd-5V-6TI"/>
+                                                        <constraint firstItem="pjX-aH-sDD" firstAttribute="top" secondItem="r2Y-7h-4YE" secondAttribute="bottom" constant="10" id="zIG-c7-j67"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3Y-4o-Lx3">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w3Y-4o-Lx3" userLabel="Camiler">
                                                     <rect key="frame" x="0.0" y="250" width="428" height="250"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="250" id="Iy0-n8-Zna"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h2S-j5-IWm">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h2S-j5-IWm" userLabel="DiniYapilar">
                                                     <rect key="frame" x="0.0" y="500" width="428" height="250"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="250" id="W8G-T4-ZKP"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pgq-tj-d2h">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pgq-tj-d2h" userLabel="Kiliseler">
                                                     <rect key="frame" x="0.0" y="750" width="428" height="250"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="250" id="uah-dM-NA6"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nZ2-Vk-hQC">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nZ2-Vk-hQC" userLabel="Saraylar">
                                                     <rect key="frame" x="0.0" y="1000" width="428" height="250"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="250" id="Su0-Kk-mW5"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F5s-yk-goW">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F5s-yk-goW" userLabel="Carsilar">
                                                     <rect key="frame" x="0.0" y="1250" width="428" height="250"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="250" id="4gX-Rc-g0X"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c8c-ze-LxW" userLabel="Kasirlar">
+                                                    <rect key="frame" x="0.0" y="1500" width="428" height="250"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="250" id="6N8-qO-3GY"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ays-MZ-8eO" userLabel="Muzeler">
+                                                    <rect key="frame" x="0.0" y="1750" width="428" height="250"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="250" id="423-ns-8LZ"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PEQ-RP-IcK" userLabel="MimariYapilar">
+                                                    <rect key="frame" x="0.0" y="2000" width="428" height="250"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="250" id="FuJ-5h-kca"/>
+                                                    </constraints>
+                                                </view>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzf-uJ-GCy" userLabel="MeydanlarTarihiYuruyus">
+                                                    <rect key="frame" x="0.0" y="2250" width="428" height="250"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="250" id="D2G-lk-tgj"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>

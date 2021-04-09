@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import RxCocoa
+import RxSwift
+
 class HomeVM: BaseVM {
-    
-    
+    var hisarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
     func getIstanbulInfo() -> IstanbulResponse? {
         do {
             guard let jsonData = readLocalFile(forName: "istanbul") else { return nil }
@@ -21,6 +23,14 @@ class HomeVM: BaseVM {
                 return nil
                 
             }
+    }
+    
+    func getHisarlar(){
+        var jsonHisarlar = getIstanbulInfo()
+        var hisarlarModel = [DataSourceModel<Camiler>]()
+        hisarlarModel.append(DataSourceModel(header: "", items: jsonHisarlar?.hisarlar ?? []))
+        self.hisarInfo.onNext(hisarlarModel)
+        
     }
     
     private func readLocalFile(forName name: String) -> Data? {
