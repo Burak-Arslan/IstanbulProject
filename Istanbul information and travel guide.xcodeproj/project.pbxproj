@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BF10C394261A704C00B1E38C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BF10C393261A704C00B1E38C /* Lottie */; };
+		BF1CA95B262214D800A305B2 /* CamilerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CA959262214D800A305B2 /* CamilerCollectionViewCell.swift */; };
+		BF1CA95C262214D800A305B2 /* CamilerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CA95A262214D800A305B2 /* CamilerCollectionViewCell.xib */; };
 		BF3185B1261A698A0071B3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B0261A698A0071B3FF /* AppDelegate.swift */; };
 		BF3185B3261A698A0071B3FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B2261A698A0071B3FF /* SceneDelegate.swift */; };
 		BF3185B5261A698A0071B3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B4261A698A0071B3FF /* ViewController.swift */; };
@@ -77,6 +79,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF1CA959262214D800A305B2 /* CamilerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamilerCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF1CA95A262214D800A305B2 /* CamilerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CamilerCollectionViewCell.xib; sourceTree = "<group>"; };
 		BF3185AD261A698A0071B3FF /* Istanbul information and travel guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Istanbul information and travel guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3185B0261A698A0071B3FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF3185B2261A698A0071B3FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -404,6 +408,8 @@
 			children = (
 				BF6CD72A261F49700045C0E6 /* HisarCollectionViewCell.swift */,
 				BF6CD72B261F49700045C0E6 /* HisarCollectionViewCell.xib */,
+				BF1CA959262214D800A305B2 /* CamilerCollectionViewCell.swift */,
+				BF1CA95A262214D800A305B2 /* CamilerCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -566,6 +572,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1CA95C262214D800A305B2 /* CamilerCollectionViewCell.xib in Resources */,
 				BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */,
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
 				BF6CD72D261F49700045C0E6 /* HisarCollectionViewCell.xib in Resources */,
@@ -606,6 +613,7 @@
 				BFC17A50262090EF0053C1AE /* HisarCoordinator.swift in Sources */,
 				BF6C4FF6261B6DE700A821D3 /* MainVC.swift in Sources */,
 				BF3185B5261A698A0071B3FF /* ViewController.swift in Sources */,
+				BF1CA95B262214D800A305B2 /* CamilerCollectionViewCell.swift in Sources */,
 				BFC17A5526209FB10053C1AE /* UIColor+Extension.swift in Sources */,
 				BF6C5014261BB1BE00A821D3 /* RawRepresentable.swift in Sources */,
 				BF6C4FC6261B609700A821D3 /* BaseVC.swift in Sources */,

@@ -11,6 +11,7 @@ import RxSwift
 
 class HomeVM: BaseVM {
     var hisarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
+    var camilerInfo = PublishSubject<[DataSourceModel<Camiler>]>()
     let goHisaDetail = PublishSubject<Camiler>()
 
     func getIstanbulInfo() -> IstanbulResponse? {
@@ -28,11 +29,18 @@ class HomeVM: BaseVM {
     }
     
     func getHisarlar(){
-        var jsonHisarlar = getIstanbulInfo()
+        let jsonHisarlar = getIstanbulInfo()
         var hisarlarModel = [DataSourceModel<Camiler>]()
         hisarlarModel.append(DataSourceModel(header: "", items: jsonHisarlar?.hisarlar ?? []))
         self.hisarInfo.onNext(hisarlarModel)
-        
+
+    }
+    
+    func getCamiler(){
+        let jsonCamiler = getIstanbulInfo()
+        var camilerModel = [DataSourceModel<Camiler>]()
+        camilerModel.append(DataSourceModel(header: "", items: jsonCamiler?.camiler ?? []))
+        self.camilerInfo.onNext(camilerModel)
     }
     
     private func readLocalFile(forName name: String) -> Data? {
