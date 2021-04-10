@@ -12,6 +12,12 @@ import RxSwift
 class HomeVM: BaseVM {
     var hisarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
     var camilerInfo = PublishSubject<[DataSourceModel<Camiler>]>()
+    var kilislereInfo = PublishSubject<[DataSourceModel<Camiler>]>()
+    var saraylarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
+    var kasirlarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
+    var carsilarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
+
+
     let goHisaDetail = PublishSubject<Camiler>()
 
     func getIstanbulInfo() -> IstanbulResponse? {
@@ -33,7 +39,6 @@ class HomeVM: BaseVM {
         var hisarlarModel = [DataSourceModel<Camiler>]()
         hisarlarModel.append(DataSourceModel(header: "", items: jsonHisarlar?.hisarlar ?? []))
         self.hisarInfo.onNext(hisarlarModel)
-
     }
     
     func getCamiler(){
@@ -41,6 +46,34 @@ class HomeVM: BaseVM {
         var camilerModel = [DataSourceModel<Camiler>]()
         camilerModel.append(DataSourceModel(header: "", items: jsonCamiler?.camiler ?? []))
         self.camilerInfo.onNext(camilerModel)
+    }
+    
+    func getKiliseler(){
+        let jsonKilseler = getIstanbulInfo()
+        var kiliselerModel = [DataSourceModel<Camiler>]()
+        kiliselerModel.append(DataSourceModel(header: "", items: jsonKilseler?.kiliseler ?? []))
+        self.kilislereInfo.onNext(kiliselerModel)
+    }
+    
+    func getSaraylar(){
+        let jsonSaraylar = getIstanbulInfo()
+        var saraylarModel = [DataSourceModel<Camiler>]()
+        saraylarModel.append(DataSourceModel(header: "", items: jsonSaraylar?.saraylar ?? []))
+        self.saraylarInfo.onNext(saraylarModel)
+    }
+    
+    func getKasirlar(){
+        let jsonKasirlar = getIstanbulInfo()
+        var kasirlarModel = [DataSourceModel<Camiler>]()
+        kasirlarModel.append(DataSourceModel(header: "", items: jsonKasirlar?.kasirlar ?? []))
+        self.kasirlarInfo.onNext(kasirlarModel)
+    }
+    
+    func getCarsilar(){
+        let jsonCarsilar = getIstanbulInfo()
+        var carsilarModel = [DataSourceModel<Camiler>]()
+        carsilarModel.append(DataSourceModel(header: "", items: jsonCarsilar?.carsilar ?? []))
+        self.carsilarInfo.onNext(carsilarModel)
     }
     
     private func readLocalFile(forName name: String) -> Data? {

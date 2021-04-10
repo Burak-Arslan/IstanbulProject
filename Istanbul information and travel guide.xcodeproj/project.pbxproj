@@ -10,6 +10,12 @@
 		BF10C394261A704C00B1E38C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BF10C393261A704C00B1E38C /* Lottie */; };
 		BF1CA95B262214D800A305B2 /* CamilerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CA959262214D800A305B2 /* CamilerCollectionViewCell.swift */; };
 		BF1CA95C262214D800A305B2 /* CamilerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CA95A262214D800A305B2 /* CamilerCollectionViewCell.xib */; };
+		BF1CA962262228CF00A305B2 /* KiliselerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CA960262228CF00A305B2 /* KiliselerCollectionViewCell.swift */; };
+		BF1CA963262228CF00A305B2 /* KiliselerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CA961262228CF00A305B2 /* KiliselerCollectionViewCell.xib */; };
+		BF1CA9692622327300A305B2 /* SaraylarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CA9672622327300A305B2 /* SaraylarCollectionViewCell.swift */; };
+		BF1CA96A2622327300A305B2 /* SaraylarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CA9682622327300A305B2 /* SaraylarCollectionViewCell.xib */; };
+		BF1CA97026223B6D00A305B2 /* KasirlarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CA96E26223B6D00A305B2 /* KasirlarCollectionViewCell.swift */; };
+		BF1CA97126223B6D00A305B2 /* KasirlarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1CA96F26223B6D00A305B2 /* KasirlarCollectionViewCell.xib */; };
 		BF3185B1261A698A0071B3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B0261A698A0071B3FF /* AppDelegate.swift */; };
 		BF3185B3261A698A0071B3FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B2261A698A0071B3FF /* SceneDelegate.swift */; };
 		BF3185B5261A698A0071B3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185B4261A698A0071B3FF /* ViewController.swift */; };
@@ -50,6 +56,8 @@
 		BF6CD725261F34670045C0E6 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6CD723261F34670045C0E6 /* HomeVC.xib */; };
 		BF6CD72C261F49700045C0E6 /* HisarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CD72A261F49700045C0E6 /* HisarCollectionViewCell.swift */; };
 		BF6CD72D261F49700045C0E6 /* HisarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6CD72B261F49700045C0E6 /* HisarCollectionViewCell.xib */; };
+		BFB8B79A262246450089A838 /* CarsilarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8B798262246450089A838 /* CarsilarCollectionViewCell.swift */; };
+		BFB8B79B262246450089A838 /* CarsilarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */; };
 		BFC17A2526203C860053C1AE /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC17A2426203C860053C1AE /* UIImageView+Download.swift */; };
 		BFC17A2B262044470053C1AE /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = BFC17A2A262044470053C1AE /* Differentiator */; };
 		BFC17A2D262044470053C1AE /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = BFC17A2C262044470053C1AE /* RxDataSources */; };
@@ -81,6 +89,12 @@
 /* Begin PBXFileReference section */
 		BF1CA959262214D800A305B2 /* CamilerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamilerCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF1CA95A262214D800A305B2 /* CamilerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CamilerCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF1CA960262228CF00A305B2 /* KiliselerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiliselerCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF1CA961262228CF00A305B2 /* KiliselerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KiliselerCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF1CA9672622327300A305B2 /* SaraylarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaraylarCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF1CA9682622327300A305B2 /* SaraylarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaraylarCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF1CA96E26223B6D00A305B2 /* KasirlarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KasirlarCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF1CA96F26223B6D00A305B2 /* KasirlarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KasirlarCollectionViewCell.xib; sourceTree = "<group>"; };
 		BF3185AD261A698A0071B3FF /* Istanbul information and travel guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Istanbul information and travel guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3185B0261A698A0071B3FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF3185B2261A698A0071B3FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +133,8 @@
 		BF6CD723261F34670045C0E6 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		BF6CD72A261F49700045C0E6 /* HisarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisarCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF6CD72B261F49700045C0E6 /* HisarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HisarCollectionViewCell.xib; sourceTree = "<group>"; };
+		BFB8B798262246450089A838 /* CarsilarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsilarCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarsilarCollectionViewCell.xib; sourceTree = "<group>"; };
 		BFC17A2426203C860053C1AE /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		BFC17A34262046930053C1AE /* DataSourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceModel.swift; sourceTree = "<group>"; };
 		BFC17A4026208EE00053C1AE /* HisarVCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisarVCV.swift; sourceTree = "<group>"; };
@@ -410,6 +426,14 @@
 				BF6CD72B261F49700045C0E6 /* HisarCollectionViewCell.xib */,
 				BF1CA959262214D800A305B2 /* CamilerCollectionViewCell.swift */,
 				BF1CA95A262214D800A305B2 /* CamilerCollectionViewCell.xib */,
+				BF1CA960262228CF00A305B2 /* KiliselerCollectionViewCell.swift */,
+				BF1CA961262228CF00A305B2 /* KiliselerCollectionViewCell.xib */,
+				BF1CA9672622327300A305B2 /* SaraylarCollectionViewCell.swift */,
+				BF1CA9682622327300A305B2 /* SaraylarCollectionViewCell.xib */,
+				BF1CA96E26223B6D00A305B2 /* KasirlarCollectionViewCell.swift */,
+				BF1CA96F26223B6D00A305B2 /* KasirlarCollectionViewCell.xib */,
+				BFB8B798262246450089A838 /* CarsilarCollectionViewCell.swift */,
+				BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -577,9 +601,13 @@
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
 				BF6CD72D261F49700045C0E6 /* HisarCollectionViewCell.xib in Resources */,
 				BF6CD70C261F12DB0045C0E6 /* istanbul.json in Resources */,
+				BF1CA963262228CF00A305B2 /* KiliselerCollectionViewCell.xib in Resources */,
 				BF3185BD261A698C0071B3FF /* Assets.xcassets in Resources */,
+				BFB8B79B262246450089A838 /* CarsilarCollectionViewCell.xib in Resources */,
 				BF6C4F78261B430C00A821D3 /* map.json in Resources */,
 				BF3185B8261A698A0071B3FF /* Main.storyboard in Resources */,
+				BF1CA96A2622327300A305B2 /* SaraylarCollectionViewCell.xib in Resources */,
+				BF1CA97126223B6D00A305B2 /* KasirlarCollectionViewCell.xib in Resources */,
 				BF6CD725261F34670045C0E6 /* HomeVC.xib in Resources */,
 				BFC17A4326208EE00053C1AE /* HisarVCV.xib in Resources */,
 			);
@@ -615,9 +643,12 @@
 				BF3185B5261A698A0071B3FF /* ViewController.swift in Sources */,
 				BF1CA95B262214D800A305B2 /* CamilerCollectionViewCell.swift in Sources */,
 				BFC17A5526209FB10053C1AE /* UIColor+Extension.swift in Sources */,
+				BF1CA962262228CF00A305B2 /* KiliselerCollectionViewCell.swift in Sources */,
 				BF6C5014261BB1BE00A821D3 /* RawRepresentable.swift in Sources */,
 				BF6C4FC6261B609700A821D3 /* BaseVC.swift in Sources */,
+				BFB8B79A262246450089A838 /* CarsilarCollectionViewCell.swift in Sources */,
 				BFC17A4B26208EFA0053C1AE /* HisarVM.swift in Sources */,
+				BF1CA9692622327300A305B2 /* SaraylarCollectionViewCell.swift in Sources */,
 				BF6C4FD4261B619300A821D3 /* UIViewController + Extension.swift in Sources */,
 				BF6C4FC0261B5F4900A821D3 /* ReactiveCoordinator.swift in Sources */,
 				BF3185BB261A698A0071B3FF /* Istanbul_information_and_travel_guide.xcdatamodeld in Sources */,
@@ -626,6 +657,7 @@
 				BF6C501D261BB32600A821D3 /* HomeCoordinator.swift in Sources */,
 				BF6CD712261F191B0045C0E6 /* IstanbulResponse.swift in Sources */,
 				BF3185B1261A698A0071B3FF /* AppDelegate.swift in Sources */,
+				BF1CA97026223B6D00A305B2 /* KasirlarCollectionViewCell.swift in Sources */,
 				BF6CD724261F34670045C0E6 /* HomeVC.swift in Sources */,
 				BFC17A4226208EE00053C1AE /* HisarVCV.swift in Sources */,
 				BF3185B3261A698A0071B3FF /* SceneDelegate.swift in Sources */,
