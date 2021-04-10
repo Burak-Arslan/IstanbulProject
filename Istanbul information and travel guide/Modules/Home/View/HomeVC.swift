@@ -14,8 +14,8 @@ import RxDataSources
 class HomeVC: BaseVC<HomeVM>{
 
     @IBOutlet weak var collectionHisar: UICollectionView!
-
-
+    @IBOutlet weak var collectionCamiler: UIView!
+    
     private let hisarCellIdentifier = String(describing: HisarCollectionViewCell.self)
     
     private let cuffDataSource = RxCollectionViewSectionedReloadDataSource<DataSourceModel<Camiler>>(configureCell: { dataSource, collectionView, indexPath, item in

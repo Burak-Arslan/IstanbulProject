@@ -56,6 +56,7 @@
 		BFC17A4326208EE00053C1AE /* HisarVCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC17A4126208EE00053C1AE /* HisarVCV.xib */; };
 		BFC17A4B26208EFA0053C1AE /* HisarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC17A4A26208EFA0053C1AE /* HisarVM.swift */; };
 		BFC17A50262090EF0053C1AE /* HisarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC17A4F262090EF0053C1AE /* HisarCoordinator.swift */; };
+		BFC17A5526209FB10053C1AE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC17A5426209FB10053C1AE /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		BFC17A4126208EE00053C1AE /* HisarVCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HisarVCV.xib; sourceTree = "<group>"; };
 		BFC17A4A26208EFA0053C1AE /* HisarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisarVM.swift; sourceTree = "<group>"; };
 		BFC17A4F262090EF0053C1AE /* HisarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisarCoordinator.swift; sourceTree = "<group>"; };
+		BFC17A5426209FB10053C1AE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +297,7 @@
 				BF6C4FD3261B619300A821D3 /* UIViewController + Extension.swift */,
 				BF6C5013261BB1BE00A821D3 /* RawRepresentable.swift */,
 				BFC17A2426203C860053C1AE /* UIImageView+Download.swift */,
+				BFC17A5426209FB10053C1AE /* UIColor+Extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -603,6 +606,7 @@
 				BFC17A50262090EF0053C1AE /* HisarCoordinator.swift in Sources */,
 				BF6C4FF6261B6DE700A821D3 /* MainVC.swift in Sources */,
 				BF3185B5261A698A0071B3FF /* ViewController.swift in Sources */,
+				BFC17A5526209FB10053C1AE /* UIColor+Extension.swift in Sources */,
 				BF6C5014261BB1BE00A821D3 /* RawRepresentable.swift in Sources */,
 				BF6C4FC6261B609700A821D3 /* BaseVC.swift in Sources */,
 				BFC17A4B26208EFA0053C1AE /* HisarVM.swift in Sources */,
