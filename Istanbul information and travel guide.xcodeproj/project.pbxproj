@@ -58,6 +58,8 @@
 		BF6CD72D261F49700045C0E6 /* HisarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6CD72B261F49700045C0E6 /* HisarCollectionViewCell.xib */; };
 		BFB8B79A262246450089A838 /* CarsilarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8B798262246450089A838 /* CarsilarCollectionViewCell.swift */; };
 		BFB8B79B262246450089A838 /* CarsilarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */; };
+		BFB8B7A1262363710089A838 /* MuzelerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8B79F262363710089A838 /* MuzelerCollectionViewCell.swift */; };
+		BFB8B7A2262363710089A838 /* MuzelerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB8B7A0262363710089A838 /* MuzelerCollectionViewCell.xib */; };
 		BFC17A2526203C860053C1AE /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC17A2426203C860053C1AE /* UIImageView+Download.swift */; };
 		BFC17A2B262044470053C1AE /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = BFC17A2A262044470053C1AE /* Differentiator */; };
 		BFC17A2D262044470053C1AE /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = BFC17A2C262044470053C1AE /* RxDataSources */; };
@@ -135,6 +137,8 @@
 		BF6CD72B261F49700045C0E6 /* HisarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HisarCollectionViewCell.xib; sourceTree = "<group>"; };
 		BFB8B798262246450089A838 /* CarsilarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsilarCollectionViewCell.swift; sourceTree = "<group>"; };
 		BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarsilarCollectionViewCell.xib; sourceTree = "<group>"; };
+		BFB8B79F262363710089A838 /* MuzelerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzelerCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFB8B7A0262363710089A838 /* MuzelerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MuzelerCollectionViewCell.xib; sourceTree = "<group>"; };
 		BFC17A2426203C860053C1AE /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		BFC17A34262046930053C1AE /* DataSourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceModel.swift; sourceTree = "<group>"; };
 		BFC17A4026208EE00053C1AE /* HisarVCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisarVCV.swift; sourceTree = "<group>"; };
@@ -434,6 +438,8 @@
 				BF1CA96F26223B6D00A305B2 /* KasirlarCollectionViewCell.xib */,
 				BFB8B798262246450089A838 /* CarsilarCollectionViewCell.swift */,
 				BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */,
+				BFB8B79F262363710089A838 /* MuzelerCollectionViewCell.swift */,
+				BFB8B7A0262363710089A838 /* MuzelerCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -610,6 +616,7 @@
 				BF1CA97126223B6D00A305B2 /* KasirlarCollectionViewCell.xib in Resources */,
 				BF6CD725261F34670045C0E6 /* HomeVC.xib in Resources */,
 				BFC17A4326208EE00053C1AE /* HisarVCV.xib in Resources */,
+				BFB8B7A2262363710089A838 /* MuzelerCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +670,7 @@
 				BF3185B3261A698A0071B3FF /* SceneDelegate.swift in Sources */,
 				BF6C4FCB261B60BB00A821D3 /* BaseVM.swift in Sources */,
 				BF6C4FDC261B62F800A821D3 /* SplashVM.swift in Sources */,
+				BFB8B7A1262363710089A838 /* MuzelerCollectionViewCell.swift in Sources */,
 				BFC17A35262046930053C1AE /* DataSourceModel.swift in Sources */,
 				BF6C4FFC261B6EA400A821D3 /* MainVM.swift in Sources */,
 				BFC17A2526203C860053C1AE /* UIImageView+Download.swift in Sources */,

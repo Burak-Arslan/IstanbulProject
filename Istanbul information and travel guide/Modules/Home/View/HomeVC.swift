@@ -19,6 +19,7 @@ class HomeVC: BaseVC<HomeVM>{
     @IBOutlet weak var collectionSarayla: UICollectionView!
     @IBOutlet weak var collectionKasirlar: UICollectionView!
     @IBOutlet weak var collectionCarsilar: UICollectionView!
+    @IBOutlet weak var collectionMuzeler: UICollectionView!
     
     private let hisarCellIdentifier = String(describing: HisarCollectionViewCell.self)
     private let camilerCellIdentifier = String(describing: CamilerCollectionViewCell.self)
@@ -26,6 +27,7 @@ class HomeVC: BaseVC<HomeVM>{
     private let saraylarCellIdentifier = String(describing: SaraylarCollectionViewCell.self)
     private let kasirlarCellIdentifier = String(describing: KasirlarCollectionViewCell.self)
     private let carsilarCellIdentifier = String(describing: CarsilarCollectionViewCell.self)
+    private let muzelerCellIdentifier = String(describing: MuzelerCollectionViewCell.self)
 
     
     private let hisarDataSource = RxCollectionViewSectionedReloadDataSource<DataSourceModel<Camiler>>(configureCell: { dataSource, collectionView, indexPath, item in
@@ -58,9 +60,15 @@ class HomeVC: BaseVC<HomeVM>{
         return cell
     })
     
-    
     private let carsilarDataSource = RxCollectionViewSectionedReloadDataSource<DataSourceModel<Camiler>>(configureCell: { dataSource, collectionView, indexPath, item in
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CarsilarCollectionViewCell", for: indexPath) as! CarsilarCollectionViewCell
+        cell.model = item
+        return cell
+    })
+    
+    
+    private let muzelerDataSource = RxCollectionViewSectionedReloadDataSource<DataSourceModel<Camiler>>(configureCell: { dataSource, collectionView, indexPath, item in
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MuzelerCollectionViewCell", for: indexPath) as! MuzelerCollectionViewCell
         cell.model = item
         return cell
     })
@@ -88,6 +96,9 @@ class HomeVC: BaseVC<HomeVM>{
         
         collectionCarsilar.register(UINib(nibName: "CarsilarCollectionViewCell", bundle: nil),forCellWithReuseIdentifier: carsilarCellIdentifier)
         collectionCarsilar.rx.setDelegate(self).disposed(by: disposeBag)
+        
+        collectionMuzeler.register(UINib(nibName: "MuzelerCollectionViewCell", bundle: nil),forCellWithReuseIdentifier: muzelerCellIdentifier)
+        collectionMuzeler.rx.setDelegate(self).disposed(by: disposeBag)
        
         bindCollectionView()
         self.viewModel?.getHisarlar()
@@ -96,6 +107,7 @@ class HomeVC: BaseVC<HomeVM>{
         self.viewModel?.getSaraylar()
         self.viewModel?.getKasirlar()
         self.viewModel?.getCarsilar()
+        self.viewModel?.getMuzeler()
     }
 }
 
@@ -132,6 +144,11 @@ extension HomeVC {
         collectionCarsilar.rx.modelSelected(Camiler.self).subscribe(onNext:{(model) in
             print(model)
         }).disposed(by: disposeBag)
+        
+        viewModel?.muzelerInfo.bind(to: collectionMuzeler.rx.items(dataSource: self.muzelerDataSource)).disposed(by: disposeBag)
+        collectionMuzeler.rx.modelSelected(Camiler.self).subscribe(onNext:{(model) in
+            print(model)
+        }).disposed(by: disposeBag)
     }
 }
 
@@ -153,6 +170,9 @@ extension HomeVC: UICollectionViewDelegateFlowLayout {
             return CGSize(width: UIScreen.main.bounds.width - 100, height: 250)
         }
         else if collectionView  == collectionCarsilar {
+            return CGSize(width: UIScreen.main.bounds.width - 100, height: 250)
+        }
+        else if collectionView  == collectionMuzeler {
             return CGSize(width: UIScreen.main.bounds.width - 100, height: 250)
         }
         else {

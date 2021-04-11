@@ -15,6 +15,7 @@
                 <outlet property="collectionHisar" destination="pjX-aH-sDD" id="LEK-ef-paR"/>
                 <outlet property="collectionKasirlar" destination="4m5-Ea-4td" id="wC4-EI-cUX"/>
                 <outlet property="collectionKiliseler" destination="CEh-78-EpG" id="Hbo-RD-xlN"/>
+                <outlet property="collectionMuzeler" destination="2mM-XQ-Iuj" id="jEQ-ef-j4V"/>
                 <outlet property="collectionSarayla" destination="YTr-VO-KuD" id="xRG-5r-4Z8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -31,10 +32,10 @@
                             <rect key="frame" x="0.0" y="0.0" width="428" height="1392"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bII-oL-iTH">
-                                    <rect key="frame" x="0.0" y="0.0" width="428" height="2850"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="428" height="2950"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="83N-rB-a2u">
-                                            <rect key="frame" x="0.0" y="0.0" width="428" height="2850"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="2950"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSR-ap-8KC" userLabel="Hisarlar">
                                                     <rect key="frame" x="0.0" y="0.0" width="428" height="350"/>
@@ -240,21 +241,41 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ays-MZ-8eO" userLabel="Muzeler">
-                                                    <rect key="frame" x="0.0" y="2100" width="428" height="250"/>
+                                                    <rect key="frame" x="0.0" y="2100" width="428" height="350"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Müzeler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g62-xK-yO2">
+                                                            <rect key="frame" x="8" y="18" width="412" height="21"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="2mM-XQ-Iuj">
+                                                            <rect key="frame" x="8" y="47" width="412" height="295"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="c0v-cc-hLC">
+                                                                <size key="itemSize" width="128" height="128"/>
+                                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                            </collectionViewFlowLayout>
+                                                        </collectionView>
+                                                    </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="250" id="423-ns-8LZ"/>
+                                                        <constraint firstAttribute="height" constant="350" id="423-ns-8LZ"/>
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PEQ-RP-IcK" userLabel="MimariYapilar">
-                                                    <rect key="frame" x="0.0" y="2350" width="428" height="250"/>
+                                                    <rect key="frame" x="0.0" y="2450" width="428" height="250"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="250" id="FuJ-5h-kca"/>
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jzf-uJ-GCy" userLabel="MeydanlarTarihiYuruyus">
-                                                    <rect key="frame" x="0.0" y="2600" width="428" height="250"/>
+                                                    <rect key="frame" x="0.0" y="2700" width="428" height="250"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="250" id="D2G-lk-tgj"/>
