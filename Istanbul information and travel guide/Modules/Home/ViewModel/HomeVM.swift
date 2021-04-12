@@ -17,7 +17,8 @@ class HomeVM: BaseVM {
     var kasirlarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
     var carsilarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
     var muzelerInfo = PublishSubject<[DataSourceModel<Camiler>]>()
-
+    var mimariYapilarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
+    var meydanlarInfo = PublishSubject<[DataSourceModel<Camiler>]>()
 
     let goHisaDetail = PublishSubject<Camiler>()
 
@@ -82,6 +83,20 @@ class HomeVM: BaseVM {
         var muzelerModel = [DataSourceModel<Camiler>]()
         muzelerModel.append(DataSourceModel(header: "", items: jsonMuzeler?.muzeler ?? []))
         self.muzelerInfo.onNext(muzelerModel)
+    }
+    
+    func getMimariYapilar(){
+        let jsonMimariYapilar = getIstanbulInfo()
+        var mimariYapilarModel = [DataSourceModel<Camiler>]()
+        mimariYapilarModel.append(DataSourceModel(header: "", items: jsonMimariYapilar?.mimariYapilar ?? []))
+        self.mimariYapilarInfo.onNext(mimariYapilarModel)
+    }
+    
+    func getMeydanlar(){
+        let jsonMeydanlar = getIstanbulInfo()
+        var meydanlarModel = [DataSourceModel<Camiler>]()
+        meydanlarModel.append(DataSourceModel(header: "", items: jsonMeydanlar?.meydanlarTarihiYuruyusAlanlari ?? []))
+        self.meydanlarInfo.onNext(meydanlarModel)
     }
     
     private func readLocalFile(forName name: String) -> Data? {

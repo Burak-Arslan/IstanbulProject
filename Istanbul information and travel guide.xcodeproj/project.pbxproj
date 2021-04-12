@@ -56,6 +56,10 @@
 		BF6CD725261F34670045C0E6 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6CD723261F34670045C0E6 /* HomeVC.xib */; };
 		BF6CD72C261F49700045C0E6 /* HisarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6CD72A261F49700045C0E6 /* HisarCollectionViewCell.swift */; };
 		BF6CD72D261F49700045C0E6 /* HisarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF6CD72B261F49700045C0E6 /* HisarCollectionViewCell.xib */; };
+		BF93665D262432320038E595 /* MimariYapilarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93665B262432320038E595 /* MimariYapilarCollectionViewCell.swift */; };
+		BF93665E262432320038E595 /* MimariYapilarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF93665C262432320038E595 /* MimariYapilarCollectionViewCell.xib */; };
+		BF936664262439C20038E595 /* MeydanlarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF936662262439C20038E595 /* MeydanlarCollectionViewCell.swift */; };
+		BF936665262439C20038E595 /* MeydanlarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF936663262439C20038E595 /* MeydanlarCollectionViewCell.xib */; };
 		BFB8B79A262246450089A838 /* CarsilarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8B798262246450089A838 /* CarsilarCollectionViewCell.swift */; };
 		BFB8B79B262246450089A838 /* CarsilarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */; };
 		BFB8B7A1262363710089A838 /* MuzelerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8B79F262363710089A838 /* MuzelerCollectionViewCell.swift */; };
@@ -135,6 +139,10 @@
 		BF6CD723261F34670045C0E6 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		BF6CD72A261F49700045C0E6 /* HisarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisarCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF6CD72B261F49700045C0E6 /* HisarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HisarCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF93665B262432320038E595 /* MimariYapilarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimariYapilarCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF93665C262432320038E595 /* MimariYapilarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MimariYapilarCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF936662262439C20038E595 /* MeydanlarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeydanlarCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF936663262439C20038E595 /* MeydanlarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeydanlarCollectionViewCell.xib; sourceTree = "<group>"; };
 		BFB8B798262246450089A838 /* CarsilarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsilarCollectionViewCell.swift; sourceTree = "<group>"; };
 		BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarsilarCollectionViewCell.xib; sourceTree = "<group>"; };
 		BFB8B79F262363710089A838 /* MuzelerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuzelerCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -241,6 +249,7 @@
 		BF6C4F74261B427300A821D3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				BFDB20D02624697B009FB472 /* Notifications */,
 				BFC17A3C26208C5A0053C1AE /* Hisaralar */,
 				BF6C5018261BB2BC00A821D3 /* Home */,
 				BF6C4FF0261B6DAF00A821D3 /* Main */,
@@ -440,6 +449,10 @@
 				BFB8B799262246450089A838 /* CarsilarCollectionViewCell.xib */,
 				BFB8B79F262363710089A838 /* MuzelerCollectionViewCell.swift */,
 				BFB8B7A0262363710089A838 /* MuzelerCollectionViewCell.xib */,
+				BF93665B262432320038E595 /* MimariYapilarCollectionViewCell.swift */,
+				BF93665C262432320038E595 /* MimariYapilarCollectionViewCell.xib */,
+				BF936662262439C20038E595 /* MeydanlarCollectionViewCell.swift */,
+				BF936663262439C20038E595 /* MeydanlarCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -477,6 +490,45 @@
 				BFC17A4F262090EF0053C1AE /* HisarCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BFDB20D02624697B009FB472 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				BFDB20D4262469A2009FB472 /* Cell */,
+				BFDB20D326246999009FB472 /* Coordinator */,
+				BFDB20D226246994009FB472 /* ViewModel */,
+				BFDB20D12624698A009FB472 /* View */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		BFDB20D12624698A009FB472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFDB20D226246994009FB472 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFDB20D326246999009FB472 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BFDB20D4262469A2009FB472 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -602,6 +654,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF936665262439C20038E595 /* MeydanlarCollectionViewCell.xib in Resources */,
 				BF1CA95C262214D800A305B2 /* CamilerCollectionViewCell.xib in Resources */,
 				BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */,
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
@@ -614,6 +667,7 @@
 				BF3185B8261A698A0071B3FF /* Main.storyboard in Resources */,
 				BF1CA96A2622327300A305B2 /* SaraylarCollectionViewCell.xib in Resources */,
 				BF1CA97126223B6D00A305B2 /* KasirlarCollectionViewCell.xib in Resources */,
+				BF93665E262432320038E595 /* MimariYapilarCollectionViewCell.xib in Resources */,
 				BF6CD725261F34670045C0E6 /* HomeVC.xib in Resources */,
 				BFC17A4326208EE00053C1AE /* HisarVCV.xib in Resources */,
 				BFB8B7A2262363710089A838 /* MuzelerCollectionViewCell.xib in Resources */,
@@ -662,8 +716,10 @@
 				BF6C500A261BB06400A821D3 /* Tabs.swift in Sources */,
 				BF6C5029261BB38700A821D3 /* HomeVM.swift in Sources */,
 				BF6C501D261BB32600A821D3 /* HomeCoordinator.swift in Sources */,
+				BF93665D262432320038E595 /* MimariYapilarCollectionViewCell.swift in Sources */,
 				BF6CD712261F191B0045C0E6 /* IstanbulResponse.swift in Sources */,
 				BF3185B1261A698A0071B3FF /* AppDelegate.swift in Sources */,
+				BF936664262439C20038E595 /* MeydanlarCollectionViewCell.swift in Sources */,
 				BF1CA97026223B6D00A305B2 /* KasirlarCollectionViewCell.swift in Sources */,
 				BF6CD724261F34670045C0E6 /* HomeVC.swift in Sources */,
 				BFC17A4226208EE00053C1AE /* HisarVCV.swift in Sources */,

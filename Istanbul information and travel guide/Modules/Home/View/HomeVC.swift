@@ -20,6 +20,8 @@ class HomeVC: BaseVC<HomeVM>{
     @IBOutlet weak var collectionKasirlar: UICollectionView!
     @IBOutlet weak var collectionCarsilar: UICollectionView!
     @IBOutlet weak var collectionMuzeler: UICollectionView!
+    @IBOutlet weak var collectionMimariYapilar: UICollectionView!
+    @IBOutlet weak var collectionMeydanlar: UICollectionView!
     
     private let hisarCellIdentifier = String(describing: HisarCollectionViewCell.self)
     private let camilerCellIdentifier = String(describing: CamilerCollectionViewCell.self)
@@ -28,6 +30,8 @@ class HomeVC: BaseVC<HomeVM>{
     private let kasirlarCellIdentifier = String(describing: KasirlarCollectionViewCell.self)
     private let carsilarCellIdentifier = String(describing: CarsilarCollectionViewCell.self)
     private let muzelerCellIdentifier = String(describing: MuzelerCollectionViewCell.self)
+    private let mimariYapilarCellIdentifier = String(describing: MimariYapilarCollectionViewCell.self)
+    private let meydanlarCellIdentifier = String(describing: MeydanlarCollectionViewCell.self)
 
     
     private let hisarDataSource = RxCollectionViewSectionedReloadDataSource<DataSourceModel<Camiler>>(configureCell: { dataSource, collectionView, indexPath, item in
@@ -73,6 +77,18 @@ class HomeVC: BaseVC<HomeVM>{
         return cell
     })
     
+    private let mimariYapilarDataSource = RxCollectionViewSectionedReloadDataSource<DataSourceModel<Camiler>>(configureCell: { dataSource, collectionView, indexPath, item in
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MimariYapilarCollectionViewCell", for: indexPath) as! MimariYapilarCollectionViewCell
+        cell.model = item
+        return cell
+    })
+    
+    private let meydanlarDataSouce = RxCollectionViewSectionedReloadDataSource<DataSourceModel<Camiler>>(configureCell: { dataSource, collectionView, indexPath, item in
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MeydanlarCollectionViewCell", for: indexPath) as! MeydanlarCollectionViewCell
+        cell.model = item
+        return cell
+    })
+    
     
     let disposeBag = DisposeBag()
 
@@ -99,6 +115,12 @@ class HomeVC: BaseVC<HomeVM>{
         
         collectionMuzeler.register(UINib(nibName: "MuzelerCollectionViewCell", bundle: nil),forCellWithReuseIdentifier: muzelerCellIdentifier)
         collectionMuzeler.rx.setDelegate(self).disposed(by: disposeBag)
+        
+        collectionMimariYapilar.register(UINib(nibName: "MimariYapilarCollectionViewCell", bundle: nil),forCellWithReuseIdentifier: mimariYapilarCellIdentifier)
+        collectionMimariYapilar.rx.setDelegate(self).disposed(by: disposeBag)
+        
+        collectionMeydanlar.register(UINib(nibName: "MeydanlarCollectionViewCell", bundle: nil),forCellWithReuseIdentifier: meydanlarCellIdentifier)
+        collectionMeydanlar.rx.setDelegate(self).disposed(by: disposeBag)
        
         bindCollectionView()
         self.viewModel?.getHisarlar()
@@ -108,6 +130,8 @@ class HomeVC: BaseVC<HomeVM>{
         self.viewModel?.getKasirlar()
         self.viewModel?.getCarsilar()
         self.viewModel?.getMuzeler()
+        self.viewModel?.getMimariYapilar()
+        self.viewModel?.getMeydanlar()
     }
 }
 
@@ -149,6 +173,16 @@ extension HomeVC {
         collectionMuzeler.rx.modelSelected(Camiler.self).subscribe(onNext:{(model) in
             print(model)
         }).disposed(by: disposeBag)
+        
+        viewModel?.mimariYapilarInfo.bind(to: collectionMimariYapilar.rx.items(dataSource: self.mimariYapilarDataSource)).disposed(by: disposeBag)
+        collectionMimariYapilar.rx.modelSelected(Camiler.self).subscribe(onNext:{(model) in
+            print(model)
+        }).disposed(by: disposeBag)
+        
+        viewModel?.meydanlarInfo.bind(to: collectionMeydanlar.rx.items(dataSource: self.meydanlarDataSouce)).disposed(by: disposeBag)
+        collectionMeydanlar.rx.modelSelected(Camiler.self).subscribe(onNext:{(model) in
+            print(model)
+        }).disposed(by: disposeBag)
     }
 }
 
@@ -173,6 +207,12 @@ extension HomeVC: UICollectionViewDelegateFlowLayout {
             return CGSize(width: UIScreen.main.bounds.width - 100, height: 250)
         }
         else if collectionView  == collectionMuzeler {
+            return CGSize(width: UIScreen.main.bounds.width - 100, height: 250)
+        }
+        else if collectionView  == collectionMimariYapilar{
+            return CGSize(width: UIScreen.main.bounds.width - 100, height: 250)
+        }
+        else if collectionView  == collectionMeydanlar{
             return CGSize(width: UIScreen.main.bounds.width - 100, height: 250)
         }
         else {
