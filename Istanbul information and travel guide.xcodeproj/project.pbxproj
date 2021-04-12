@@ -73,6 +73,15 @@
 		BFC17A4B26208EFA0053C1AE /* HisarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC17A4A26208EFA0053C1AE /* HisarVM.swift */; };
 		BFC17A50262090EF0053C1AE /* HisarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC17A4F262090EF0053C1AE /* HisarCoordinator.swift */; };
 		BFC17A5526209FB10053C1AE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC17A5426209FB10053C1AE /* UIColor+Extension.swift */; };
+		BFDB20D726246A56009FB472 /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20D526246A56009FB472 /* NotificationsVC.swift */; };
+		BFDB20D826246A56009FB472 /* NotificationsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDB20D626246A56009FB472 /* NotificationsVC.xib */; };
+		BFDB20DD26246A88009FB472 /* NotificationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20DC26246A88009FB472 /* NotificationVM.swift */; };
+		BFDB20E226246AE7009FB472 /* NotificationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20E126246AE7009FB472 /* NotificationCoordinator.swift */; };
+		BFDB20E726246F98009FB472 /* NotificationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20E626246F98009FB472 /* NotificationResponse.swift */; };
+		BFDB20ED26246FDA009FB472 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20EC26246FDA009FB472 /* API.swift */; };
+		BFDB20F526246FEE009FB472 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20F426246FEE009FB472 /* NetworkManager.swift */; };
+		BFDB20FB2624954D009FB472 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20F92624954D009FB472 /* NotificationTableViewCell.swift */; };
+		BFDB20FC2624954D009FB472 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDB20FA2624954D009FB472 /* NotificationTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +163,15 @@
 		BFC17A4A26208EFA0053C1AE /* HisarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisarVM.swift; sourceTree = "<group>"; };
 		BFC17A4F262090EF0053C1AE /* HisarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisarCoordinator.swift; sourceTree = "<group>"; };
 		BFC17A5426209FB10053C1AE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BFDB20D526246A56009FB472 /* NotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		BFDB20D626246A56009FB472 /* NotificationsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationsVC.xib; sourceTree = "<group>"; };
+		BFDB20DC26246A88009FB472 /* NotificationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVM.swift; sourceTree = "<group>"; };
+		BFDB20E126246AE7009FB472 /* NotificationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCoordinator.swift; sourceTree = "<group>"; };
+		BFDB20E626246F98009FB472 /* NotificationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationResponse.swift; sourceTree = "<group>"; };
+		BFDB20EC26246FDA009FB472 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BFDB20F426246FEE009FB472 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BFDB20F92624954D009FB472 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		BFDB20FA2624954D009FB472 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +233,7 @@
 		BF3185AF261A698A0071B3FF /* Istanbul information and travel guide */ = {
 			isa = PBXGroup;
 			children = (
+				BFDB20EB26246FCD009FB472 /* Network */,
 				BF6C4FD2261B615C00A821D3 /* Utils */,
 				BF6CD710261F18B10045C0E6 /* Model */,
 				BF6CD70A261F12C90045C0E6 /* Resources */,
@@ -428,6 +447,7 @@
 			children = (
 				BF6CD711261F191B0045C0E6 /* IstanbulResponse.swift */,
 				BFC17A34262046930053C1AE /* DataSourceModel.swift */,
+				BFDB20E626246F98009FB472 /* NotificationResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -506,6 +526,8 @@
 		BFDB20D12624698A009FB472 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BFDB20D526246A56009FB472 /* NotificationsVC.swift */,
+				BFDB20D626246A56009FB472 /* NotificationsVC.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -513,6 +535,7 @@
 		BFDB20D226246994009FB472 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BFDB20DC26246A88009FB472 /* NotificationVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -520,6 +543,7 @@
 		BFDB20D326246999009FB472 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				BFDB20E126246AE7009FB472 /* NotificationCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -527,8 +551,19 @@
 		BFDB20D4262469A2009FB472 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				BFDB20F92624954D009FB472 /* NotificationTableViewCell.swift */,
+				BFDB20FA2624954D009FB472 /* NotificationTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		BFDB20EB26246FCD009FB472 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BFDB20EC26246FDA009FB472 /* API.swift */,
+				BFDB20F426246FEE009FB472 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -654,11 +689,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDB20FC2624954D009FB472 /* NotificationTableViewCell.xib in Resources */,
 				BF936665262439C20038E595 /* MeydanlarCollectionViewCell.xib in Resources */,
 				BF1CA95C262214D800A305B2 /* CamilerCollectionViewCell.xib in Resources */,
 				BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */,
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
 				BF6CD72D261F49700045C0E6 /* HisarCollectionViewCell.xib in Resources */,
+				BFDB20D826246A56009FB472 /* NotificationsVC.xib in Resources */,
 				BF6CD70C261F12DB0045C0E6 /* istanbul.json in Resources */,
 				BF1CA963262228CF00A305B2 /* KiliselerCollectionViewCell.xib in Resources */,
 				BF3185BD261A698C0071B3FF /* Assets.xcassets in Resources */,
@@ -702,10 +739,13 @@
 				BFC17A50262090EF0053C1AE /* HisarCoordinator.swift in Sources */,
 				BF6C4FF6261B6DE700A821D3 /* MainVC.swift in Sources */,
 				BF3185B5261A698A0071B3FF /* ViewController.swift in Sources */,
+				BFDB20E226246AE7009FB472 /* NotificationCoordinator.swift in Sources */,
 				BF1CA95B262214D800A305B2 /* CamilerCollectionViewCell.swift in Sources */,
 				BFC17A5526209FB10053C1AE /* UIColor+Extension.swift in Sources */,
 				BF1CA962262228CF00A305B2 /* KiliselerCollectionViewCell.swift in Sources */,
+				BFDB20E726246F98009FB472 /* NotificationResponse.swift in Sources */,
 				BF6C5014261BB1BE00A821D3 /* RawRepresentable.swift in Sources */,
+				BFDB20DD26246A88009FB472 /* NotificationVM.swift in Sources */,
 				BF6C4FC6261B609700A821D3 /* BaseVC.swift in Sources */,
 				BFB8B79A262246450089A838 /* CarsilarCollectionViewCell.swift in Sources */,
 				BFC17A4B26208EFA0053C1AE /* HisarVM.swift in Sources */,
@@ -714,7 +754,9 @@
 				BF6C4FC0261B5F4900A821D3 /* ReactiveCoordinator.swift in Sources */,
 				BF3185BB261A698A0071B3FF /* Istanbul_information_and_travel_guide.xcdatamodeld in Sources */,
 				BF6C500A261BB06400A821D3 /* Tabs.swift in Sources */,
+				BFDB20ED26246FDA009FB472 /* API.swift in Sources */,
 				BF6C5029261BB38700A821D3 /* HomeVM.swift in Sources */,
+				BFDB20F526246FEE009FB472 /* NetworkManager.swift in Sources */,
 				BF6C501D261BB32600A821D3 /* HomeCoordinator.swift in Sources */,
 				BF93665D262432320038E595 /* MimariYapilarCollectionViewCell.swift in Sources */,
 				BF6CD712261F191B0045C0E6 /* IstanbulResponse.swift in Sources */,
@@ -723,6 +765,8 @@
 				BF1CA97026223B6D00A305B2 /* KasirlarCollectionViewCell.swift in Sources */,
 				BF6CD724261F34670045C0E6 /* HomeVC.swift in Sources */,
 				BFC17A4226208EE00053C1AE /* HisarVCV.swift in Sources */,
+				BFDB20FB2624954D009FB472 /* NotificationTableViewCell.swift in Sources */,
+				BFDB20D726246A56009FB472 /* NotificationsVC.swift in Sources */,
 				BF3185B3261A698A0071B3FF /* SceneDelegate.swift in Sources */,
 				BF6C4FCB261B60BB00A821D3 /* BaseVM.swift in Sources */,
 				BF6C4FDC261B62F800A821D3 /* SplashVM.swift in Sources */,
