@@ -25,7 +25,6 @@
 		BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3185BE261A698C0071B3FF /* LaunchScreen.storyboard */; };
 		BF3185CB261A698D0071B3FF /* Istanbul_information_and_travel_guideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185CA261A698D0071B3FF /* Istanbul_information_and_travel_guideTests.swift */; };
 		BF3185D6261A698D0071B3FF /* Istanbul_information_and_travel_guideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3185D5261A698D0071B3FF /* Istanbul_information_and_travel_guideUITests.swift */; };
-		BF6C4F78261B430C00A821D3 /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = BF6C4F77261B430C00A821D3 /* map.json */; };
 		BF6C4FAB261B5BE900A821D3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FAA261B5BE900A821D3 /* RxSwift */; };
 		BF6C4FAD261B5BE900A821D3 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FAC261B5BE900A821D3 /* RxRelay */; };
 		BF6C4FAF261B5BE900A821D3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = BF6C4FAE261B5BE900A821D3 /* RxCocoa */; };
@@ -82,6 +81,12 @@
 		BFDB20F526246FEE009FB472 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20F426246FEE009FB472 /* NetworkManager.swift */; };
 		BFDB20FB2624954D009FB472 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB20F92624954D009FB472 /* NotificationTableViewCell.swift */; };
 		BFDB20FC2624954D009FB472 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDB20FA2624954D009FB472 /* NotificationTableViewCell.xib */; };
+		BFDB210826258F0C009FB472 /* BusStopResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB210726258F0C009FB472 /* BusStopResponse.swift */; };
+		BFDB21132625938B009FB472 /* map.json in Resources */ = {isa = PBXBuildFile; fileRef = BFDB21122625938B009FB472 /* map.json */; };
+		BFDB2123262594CE009FB472 /* BusStopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB2121262594CE009FB472 /* BusStopVC.swift */; };
+		BFDB2124262594CE009FB472 /* BusStopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDB2122262594CE009FB472 /* BusStopVC.xib */; };
+		BFDB21292625969F009FB472 /* BusStopVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB21282625969F009FB472 /* BusStopVM.swift */; };
+		BFDB212E2625975E009FB472 /* BusStopCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB212D2625975E009FB472 /* BusStopCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,7 +130,6 @@
 		BF3185D1261A698D0071B3FF /* Istanbul information and travel guideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Istanbul information and travel guideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3185D5261A698D0071B3FF /* Istanbul_information_and_travel_guideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Istanbul_information_and_travel_guideUITests.swift; sourceTree = "<group>"; };
 		BF3185D7261A698D0071B3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF6C4F77261B430C00A821D3 /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = map.json; path = ../../../../../../../Downloads/map.json; sourceTree = "<group>"; };
 		BF6C4FBF261B5F4900A821D3 /* ReactiveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCoordinator.swift; sourceTree = "<group>"; };
 		BF6C4FC5261B609700A821D3 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		BF6C4FCA261B60BB00A821D3 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
@@ -172,6 +176,12 @@
 		BFDB20F426246FEE009FB472 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		BFDB20F92624954D009FB472 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
 		BFDB20FA2624954D009FB472 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		BFDB210726258F0C009FB472 /* BusStopResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopResponse.swift; sourceTree = "<group>"; };
+		BFDB21122625938B009FB472 /* map.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map.json; sourceTree = "<group>"; };
+		BFDB2121262594CE009FB472 /* BusStopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopVC.swift; sourceTree = "<group>"; };
+		BFDB2122262594CE009FB472 /* BusStopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusStopVC.xib; sourceTree = "<group>"; };
+		BFDB21282625969F009FB472 /* BusStopVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopVM.swift; sourceTree = "<group>"; };
+		BFDB212D2625975E009FB472 /* BusStopCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +278,7 @@
 		BF6C4F74261B427300A821D3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				BFDB211D2625949F009FB472 /* BusStop */,
 				BFDB20D02624697B009FB472 /* Notifications */,
 				BFC17A3C26208C5A0053C1AE /* Hisaralar */,
 				BF6C5018261BB2BC00A821D3 /* Home */,
@@ -280,7 +291,6 @@
 		BF6C4F75261B428400A821D3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				BF6C4F77261B430C00A821D3 /* map.json */,
 				BF3185BC261A698C0071B3FF /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -437,6 +447,7 @@
 		BF6CD70A261F12C90045C0E6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BFDB21122625938B009FB472 /* map.json */,
 				BF6CD70B261F12DB0045C0E6 /* istanbul.json */,
 			);
 			path = Resources;
@@ -448,6 +459,7 @@
 				BF6CD711261F191B0045C0E6 /* IstanbulResponse.swift */,
 				BFC17A34262046930053C1AE /* DataSourceModel.swift */,
 				BFDB20E626246F98009FB472 /* NotificationResponse.swift */,
+				BFDB210726258F0C009FB472 /* BusStopResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -564,6 +576,41 @@
 				BFDB20F426246FEE009FB472 /* NetworkManager.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		BFDB211D2625949F009FB472 /* BusStop */ = {
+			isa = PBXGroup;
+			children = (
+				BFDB2120262594B3009FB472 /* Coordinator */,
+				BFDB211F262594AE009FB472 /* ViewModel */,
+				BFDB211E262594A9009FB472 /* View */,
+			);
+			path = BusStop;
+			sourceTree = "<group>";
+		};
+		BFDB211E262594A9009FB472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFDB2121262594CE009FB472 /* BusStopVC.swift */,
+				BFDB2122262594CE009FB472 /* BusStopVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFDB211F262594AE009FB472 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFDB21282625969F009FB472 /* BusStopVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFDB2120262594B3009FB472 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BFDB212D2625975E009FB472 /* BusStopCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -692,15 +739,16 @@
 				BFDB20FC2624954D009FB472 /* NotificationTableViewCell.xib in Resources */,
 				BF936665262439C20038E595 /* MeydanlarCollectionViewCell.xib in Resources */,
 				BF1CA95C262214D800A305B2 /* CamilerCollectionViewCell.xib in Resources */,
+				BFDB2124262594CE009FB472 /* BusStopVC.xib in Resources */,
 				BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */,
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
 				BF6CD72D261F49700045C0E6 /* HisarCollectionViewCell.xib in Resources */,
 				BFDB20D826246A56009FB472 /* NotificationsVC.xib in Resources */,
+				BFDB21132625938B009FB472 /* map.json in Resources */,
 				BF6CD70C261F12DB0045C0E6 /* istanbul.json in Resources */,
 				BF1CA963262228CF00A305B2 /* KiliselerCollectionViewCell.xib in Resources */,
 				BF3185BD261A698C0071B3FF /* Assets.xcassets in Resources */,
 				BFB8B79B262246450089A838 /* CarsilarCollectionViewCell.xib in Resources */,
-				BF6C4F78261B430C00A821D3 /* map.json in Resources */,
 				BF3185B8261A698A0071B3FF /* Main.storyboard in Resources */,
 				BF1CA96A2622327300A305B2 /* SaraylarCollectionViewCell.xib in Resources */,
 				BF1CA97126223B6D00A305B2 /* KasirlarCollectionViewCell.xib in Resources */,
@@ -744,6 +792,7 @@
 				BFC17A5526209FB10053C1AE /* UIColor+Extension.swift in Sources */,
 				BF1CA962262228CF00A305B2 /* KiliselerCollectionViewCell.swift in Sources */,
 				BFDB20E726246F98009FB472 /* NotificationResponse.swift in Sources */,
+				BFDB212E2625975E009FB472 /* BusStopCoordinator.swift in Sources */,
 				BF6C5014261BB1BE00A821D3 /* RawRepresentable.swift in Sources */,
 				BFDB20DD26246A88009FB472 /* NotificationVM.swift in Sources */,
 				BF6C4FC6261B609700A821D3 /* BaseVC.swift in Sources */,
@@ -751,6 +800,7 @@
 				BFC17A4B26208EFA0053C1AE /* HisarVM.swift in Sources */,
 				BF1CA9692622327300A305B2 /* SaraylarCollectionViewCell.swift in Sources */,
 				BF6C4FD4261B619300A821D3 /* UIViewController + Extension.swift in Sources */,
+				BFDB2123262594CE009FB472 /* BusStopVC.swift in Sources */,
 				BF6C4FC0261B5F4900A821D3 /* ReactiveCoordinator.swift in Sources */,
 				BF3185BB261A698A0071B3FF /* Istanbul_information_and_travel_guide.xcdatamodeld in Sources */,
 				BF6C500A261BB06400A821D3 /* Tabs.swift in Sources */,
@@ -758,6 +808,7 @@
 				BF6C5029261BB38700A821D3 /* HomeVM.swift in Sources */,
 				BFDB20F526246FEE009FB472 /* NetworkManager.swift in Sources */,
 				BF6C501D261BB32600A821D3 /* HomeCoordinator.swift in Sources */,
+				BFDB21292625969F009FB472 /* BusStopVM.swift in Sources */,
 				BF93665D262432320038E595 /* MimariYapilarCollectionViewCell.swift in Sources */,
 				BF6CD712261F191B0045C0E6 /* IstanbulResponse.swift in Sources */,
 				BF3185B1261A698A0071B3FF /* AppDelegate.swift in Sources */,
@@ -771,6 +822,7 @@
 				BF6C4FCB261B60BB00A821D3 /* BaseVM.swift in Sources */,
 				BF6C4FDC261B62F800A821D3 /* SplashVM.swift in Sources */,
 				BFB8B7A1262363710089A838 /* MuzelerCollectionViewCell.swift in Sources */,
+				BFDB210826258F0C009FB472 /* BusStopResponse.swift in Sources */,
 				BFC17A35262046930053C1AE /* DataSourceModel.swift in Sources */,
 				BF6C4FFC261B6EA400A821D3 /* MainVM.swift in Sources */,
 				BFC17A2526203C860053C1AE /* UIImageView+Download.swift in Sources */,

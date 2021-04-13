@@ -24,6 +24,10 @@ struct NetworkManager {
         return request(.getNotification)
     }
     
+    func getBusStop() -> Observable<[BusStopResponse]>{
+        return request(.getBusStop)
+    }
+    
     func request<T: Codable>(_ request: IstanbulService) -> Observable<T> {
         self.provider.rx
             .request(request)

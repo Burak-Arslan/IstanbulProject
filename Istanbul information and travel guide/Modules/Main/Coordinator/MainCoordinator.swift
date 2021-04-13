@@ -32,7 +32,7 @@ class MainCoordinator: ReactiveCoordinator<Void> {
                 case .notification:
                     return coordinate(to: NotificationCoordinator(rootViewController: self.rootViewController, navigationController: element))
                 case .busStop :
-                    return coordinate(to: HomeCoordinator(rootViewController: self.rootViewController, navigationController: element))
+                    return coordinate(to: BusStopCoordinator(rootViewController: self.rootViewController, navigationController: element))
                 case .busGarage:
                     return coordinate(to: HomeCoordinator(rootViewController: self.rootViewController, navigationController: element))
                 case .busLocation:

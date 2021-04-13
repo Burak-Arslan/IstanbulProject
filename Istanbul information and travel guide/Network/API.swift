@@ -10,8 +10,7 @@ import Moya
 
 enum IstanbulService {
     case getNotification
- 
-    
+    case getBusStop
 }
 
 extension IstanbulService : TargetType {
@@ -31,14 +30,16 @@ extension IstanbulService : TargetType {
         switch self {
         case .getNotification:
             return "duyuru"
+        case .getBusStop:
+            return "durak"
         }
+       
     }
     
     var method: Moya.Method {
         switch self {
-        case .getNotification:
+        case .getNotification, .getBusStop:
             return .get
-    
         }
     }
     
@@ -46,12 +47,14 @@ extension IstanbulService : TargetType {
         switch self {
         case .getNotification:
             return ["Content-type": "application/json"]
+        case .getBusStop:
+            return ["Content-type": "application/json"]
         }
     }
     
     var task: Task {
         switch self {
-        case .getNotification:
+        case .getNotification, .getBusStop:
             return .requestPlain
     }
 }
