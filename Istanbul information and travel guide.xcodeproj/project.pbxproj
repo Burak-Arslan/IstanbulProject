@@ -87,6 +87,8 @@
 		BFDB2124262594CE009FB472 /* BusStopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDB2122262594CE009FB472 /* BusStopVC.xib */; };
 		BFDB21292625969F009FB472 /* BusStopVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB21282625969F009FB472 /* BusStopVM.swift */; };
 		BFDB212E2625975E009FB472 /* BusStopCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB212D2625975E009FB472 /* BusStopCoordinator.swift */; };
+		BFFE2A112626EFCF00606730 /* loading_clock.json in Resources */ = {isa = PBXBuildFile; fileRef = BFFE2A0F2626EFCF00606730 /* loading_clock.json */; };
+		BFFE2A122626EFCF00606730 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = BFFE2A102626EFCF00606730 /* loading.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +184,8 @@
 		BFDB2122262594CE009FB472 /* BusStopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusStopVC.xib; sourceTree = "<group>"; };
 		BFDB21282625969F009FB472 /* BusStopVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopVM.swift; sourceTree = "<group>"; };
 		BFDB212D2625975E009FB472 /* BusStopCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopCoordinator.swift; sourceTree = "<group>"; };
+		BFFE2A0F2626EFCF00606730 /* loading_clock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading_clock.json; sourceTree = "<group>"; };
+		BFFE2A102626EFCF00606730 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -447,6 +451,8 @@
 		BF6CD70A261F12C90045C0E6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BFFE2A0F2626EFCF00606730 /* loading_clock.json */,
+				BFFE2A102626EFCF00606730 /* loading.json */,
 				BFDB21122625938B009FB472 /* map.json */,
 				BF6CD70B261F12DB0045C0E6 /* istanbul.json */,
 			);
@@ -740,6 +746,8 @@
 				BF936665262439C20038E595 /* MeydanlarCollectionViewCell.xib in Resources */,
 				BF1CA95C262214D800A305B2 /* CamilerCollectionViewCell.xib in Resources */,
 				BFDB2124262594CE009FB472 /* BusStopVC.xib in Resources */,
+				BFFE2A122626EFCF00606730 /* loading.json in Resources */,
+				BFFE2A112626EFCF00606730 /* loading_clock.json in Resources */,
 				BF6C4FF7261B6DE700A821D3 /* MainVC.xib in Resources */,
 				BF3185C0261A698C0071B3FF /* LaunchScreen.storyboard in Resources */,
 				BF6CD72D261F49700045C0E6 /* HisarCollectionViewCell.xib in Resources */,

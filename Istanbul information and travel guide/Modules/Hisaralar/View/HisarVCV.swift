@@ -17,7 +17,6 @@ class HisarVCV: BaseVC<HisarVM> {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 }
 

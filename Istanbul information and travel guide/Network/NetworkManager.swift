@@ -24,7 +24,7 @@ struct NetworkManager {
         return request(.getNotification)
     }
     
-    func getBusStop() -> Observable<[BusStopResponse]>{
+    func getBusStop() -> Observable<BusStopResponse>{
         return request(.getBusStop)
     }
     

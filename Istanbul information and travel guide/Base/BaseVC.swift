@@ -1,9 +1,13 @@
 
 import UIKit
 import RxSwift
+import Lottie
+
 class BaseVC<T>: UIViewController where T : BaseVM {
     var viewModel : T?
     let loadingDisposeBag = DisposeBag()
+    var animationView: AnimationView?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel?.showLoading.subscribe(onNext: {(isLoading) in

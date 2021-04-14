@@ -7,15 +7,15 @@ import RxCocoa
 
 class ViewController: BaseVC<SplashVM> {
     
-    var animationView: AnimationView?
+    var animationViewSplash: AnimationView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        animationView = .init(name: "map")
-        animationView?.frame = view.bounds
-        view.addSubview(animationView!)
-        animationView!.play(
-            fromProgress: animationView?.currentProgress,
+        animationViewSplash = .init(name: "map")
+        animationViewSplash?.frame = view.bounds
+        view.addSubview(animationViewSplash!)
+        animationViewSplash!.play(
+            fromProgress: animationViewSplash?.currentProgress,
             toProgress: 1,
             loopMode: .playOnce,
             completion: { [weak self] completed in
